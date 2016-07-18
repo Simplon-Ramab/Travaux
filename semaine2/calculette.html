@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+
+  <link rel="stylesheet" href="style.css" />
+  <title></title>
+</head>
+<body >
+<script type="text/javascript">
+
+var operation = prompt("Choisissez un signe + / - * ");
+var nbre1 = (parseInt(prompt("Entrez le premier nombre")));
+var nbre2 = (parseInt(prompt("Entrez le deuxieme nombre")));
+switch (operation) {
+  case ("+"):alert("Le resultat est "+ ""+ (nbre1 + nbre2));
+    break;
+  case ("*"):aler("Le resultat est "+ ""+(nbre1 * nbre2));
+      break;
+  case ("/"):alert("Le resultat est "+ ""+(nbre1 / nbre2));
+        break;
+  case ("-"):alert("Le resultat est "+ ""+(nbre1 - nbre2));
+          break;
+
+  default:
+    console.log("Recommencez");
+}
+</script>
+</body>
+</html>

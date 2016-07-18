@@ -1,0 +1,45 @@
+header{
+  background-color: #CBCBCB;
+  height:30px;
+}
+
+li.element{
+  display: inline-flex;
+  margin-top: 4px;
+  padding-right: 10px;
+}
+
+#nav{
+  margin-left: 260px;
+}
+
+body{
+  background-color: #EFEFEF;
+  font-family: Helvetica;
+  color: #4A4A4A;
+}
+
+h1{
+  color: #4A4A4A;
+}
+
+.gboite{
+width:900px;
+height: auto;
+margin-left:300px;
+}
+
+div.ligne{
+  margin-left: 50px;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+hr {
+  height: 1px;
+  background-color: #CBCBCB;
+  border: 0;
+}
+img{
+  vertical-align: top;
+}

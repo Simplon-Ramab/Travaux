@@ -1,0 +1,29 @@
+// Le chiffre mystere
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8" />
+
+  <link rel="stylesheet" href="style.css" />
+  <title></title>
+</head>
+<body >
+<script type="text/javascript">
+
+var chiffreMystere = 7;
+var saisie = prompt("Votre chiffre vous n'avez que 2 tentatives");
+if (saisie!=chiffreMystere) {
+  alert("Cherchez encore");
+  var saisie = prompt("Derniere tentative. Entrez un chiffre");
+  if (saisie!=chiffreMystere) {
+    alert("Vous avez PERDUUUU!!!");
+  }else{
+    alert("vous avez trouvez le bon chiffre Bravoooo!!!");
+  }
+
+}else {
+    alert("vous avez trouvez le bon chiffre. Bravooo!!!");
+  };
+  </script>
+  </body>
+  </html>
