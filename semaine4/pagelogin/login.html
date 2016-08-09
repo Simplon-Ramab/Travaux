@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="style.css" />
+  <title>Notifs</title>
+  <script type="text/javascript" src="script.js">
+
+  </script>
+</head>
+<body>
+  <div class="boite1">
+    <img src="ubuntu.png"/>
+
+    <form>
+
+      <fieldset>
+        <legend>Connexion</legend>
+        <div>
+          <label for="identifiant">Identifiant</label>
+          <input id="identifiant" name="identifiant" type="text" placeholder="Votre identifiant"/>
+        </div>
+        <div>
+          <label for="motdepasse">Mot de passe</label>
+          <input id="motdepasse" name="motdepasse" type="password" placeholder="Votre mot de passe"/>
+        </div>
+
+      </fieldset>
+      <button id="valide"onclick="identifier()" type="button">S'identifier</button>
+      <button id="mdp"onclick="enregistrer()" type="button">Mot de passe oublié ?</button>
+
+
+    </form>
+
+
+
+</body>
+</html>

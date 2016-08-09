@@ -1,43 +1,43 @@
 <!doctype html>
 <html lang="fr">
 <head>
-    <meta charset="UTF-8">
-    <title>De quelle couleur...</title>
+  <meta charset="UTF-8">
+  <title>De quelle couleur...</title>
 </head>
 <body>
-<script type="text/javascript">
-    // on affiche la question
-    var reponseQuestion1 = prompt("De quelle couleur est le cheval blanc d'Henri IV");
-    console.log('reponseQuestion1', reponseQuestion1); // on affiche la réponse dans la console
-    // si la réponse donnée est "blanc"
-    reponseQuestion1=reponseQuestion1.toLowerCase();
-    if(reponseQuestion1 =="blanc"){
-        // FIXME : gérer la casse : Blanc BLANC...
-        alert('Bravo');
-        // affichage de la 2nde question
+  <script type="text/javascript">
+  // on affiche la question
+  var reponseQuestion1 = prompt("De quelle couleur est le cheval blanc d'Henri IV");
+  console.log('reponseQuestion1', reponseQuestion1); // on affiche la réponse dans la console
+  // si la réponse donnée est "blanc"
+  reponseQuestion1=reponseQuestion1.toLowerCase();
+  if(reponseQuestion1 =="blanc"){
+    // FIXME : gérer la casse : Blanc BLANC...
+    alert('Bravo');
+    // affichage de la 2nde question
+    var reponseQuestion2 = prompt('Combien y a t il de sept nains ?');
+    reponseQuestion2=parseInt(reponseQuestion2,10);
+    // si la réponse données est 7
+    if( reponseQuestion2 == "7" ){
+      // FIXME : gérer les réponses textuelles, avec différentes casses...
+      // FIXME : gérer les réponses de types 7, 07, 007, 7.0
+      alert('Bravo');
+    } else {
+      alert("Erreur");
+      // TODO : permettre un nombre "infini" de tentatives pour la question 2
+      while(reponseQuestion2!="7"){
         var reponseQuestion2 = prompt('Combien y a t il de sept nains ?');
-        reponseQuestion2=parseInt(reponseQuestion2,10);
-        // si la réponse données est 7
-        if( reponseQuestion2 == "7" ){
-            // FIXME : gérer les réponses textuelles, avec différentes casses...
-            // FIXME : gérer les réponses de types 7, 07, 007, 7.0
-            alert('Bravo');
-        } else {
-            alert("Erreur");
-            // TODO : permettre un nombre "infini" de tentatives pour la question 2
-            while(reponseQuestion2!="7"){
-              var reponseQuestion2 = prompt('Combien y a t il de sept nains ?');
-            }
+      }
 
-        }
-    } else{
-        alert('Erreur');
-        // TODO : permettre un nombre "infini" de tentatives pour la question 1
-        while(reponseQuestion1!='blanc'){
-          var reponseQuestion1 = prompt("De quelle couleur est le cheval blanc d'Henri IV");
-        }
-        }
-</script>
+    }
+  } else{
+    alert('Erreur');
+    // TODO : permettre un nombre "infini" de tentatives pour la question 1
+    while(reponseQuestion1!='blanc'){
+      var reponseQuestion1 = prompt("De quelle couleur est le cheval blanc d'Henri IV");
+    }
+  }
+  </script>
 
 
 </body>

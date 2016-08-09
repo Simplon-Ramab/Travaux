@@ -7,35 +7,35 @@
   <title></title>
 </head>
 <body >
-<script type="text/javascript">
+  <script type="text/javascript">
 
-var couleurCheval = prompt("Quelle est la couleur du cheval blanc de Henri 4 ?");
+  var couleurCheval = prompt("Quelle est la couleur du cheval blanc de Henri 4 ?");
 
-if (couleurCheval =="blanc"){
-alert("Réponse exacte");
-var nbNain=prompt("combien y a-t-il de 7 nains ?");
-  if ((nbNain==7)||(nbNain=="sept")) {
-    alert("Réponse exacte, Bravo!");
-  }else {
-    alert("Réponse fausse. Il vous reste 1 tentative");
+  if (couleurCheval =="blanc"){
+    alert("Réponse exacte");
     var nbNain=prompt("combien y a-t-il de 7 nains ?");
     if ((nbNain==7)||(nbNain=="sept")) {
-      alert("Réponse exacte");
+      alert("Réponse exacte, Bravo!");
     }else {
-      alert("Réponse fausse, Vous avez PERDUUUU!!!!!!");
+      alert("Réponse fausse. Il vous reste 1 tentative");
+      var nbNain=prompt("combien y a-t-il de 7 nains ?");
+      if ((nbNain==7)||(nbNain=="sept")) {
+        alert("Réponse exacte");
+      }else {
+        alert("Réponse fausse, Vous avez PERDUUUU!!!!!!");
+
+      }
 
     }
 
+  }else { alert("Réponse fausse. Il vous reste une tentative");
+  var couleurCheval = prompt("Quelle est la couleur du cheval blanc de Henri 4 ?");
+  if(couleurCheval!="blanc"){
+    alert("Réponse fausse, Vous avez PERDUUUU!!!!!!");
+
+  }else {
+    alert("Réponse exacte BRAVOOOO!!!!!!");
   }
-
-}else { alert("Réponse fausse. Il vous reste une tentative");
-var couleurCheval = prompt("Quelle est la couleur du cheval blanc de Henri 4 ?");
-if(couleurCheval!="blanc"){
-  alert("Réponse fausse, Vous avez PERDUUUU!!!!!!");
-
-}else {
-  alert("Réponse exacte BRAVOOOO!!!!!!");
-}
 
 }
 

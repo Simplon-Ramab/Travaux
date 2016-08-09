@@ -1,0 +1,36 @@
+
+div.notifvalid {
+  width: 400px;
+  height: 30px;
+  background-color: #00F364;
+  border: solid 2px #008E00;
+  border-radius: 5px;
+  margin: 15px;
+  padding: 3px;
+  padding-top: 10px;
+  color:white;
+  font-weight: bold;
+  background-image: url(http://www.rxlabz.com/simplon/files/icons/icon_check_white.png);
+  background-repeat: no-repeat;
+  padding-left: 35px;
+  background-position:5px;
+
+}
+
+div.notiferror{
+  width: 400px;
+  height: 30px;
+  background-color: #E77600;
+  border: solid 2px #C90000;
+  border-radius: 5px;
+  margin: 15px;
+  padding: 3px;
+  padding-top: 10px;
+  color:white;
+  font-weight: bold;
+  background-image: url(http://www.rxlabz.com/simplon/files/icons/dialog-warning.png);
+  background-repeat: no-repeat;
+  padding-left: 35px;
+  background-position:5px;
+
+}

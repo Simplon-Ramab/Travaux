@@ -7,24 +7,45 @@
   <title></title>
 </head>
 <body >
-<script type="text/javascript">
+  <script type="text/javascript">
 
-var operation = prompt("Choisissez un signe + / - * ");
-var nbre1 = (parseInt(prompt("Entrez le premier nombre")));
-var nbre2 = (parseInt(prompt("Entrez le deuxieme nombre")));
-switch (operation) {
-  case ("+"):alert("Le resultat est "+ ""+ (nbre1 + nbre2));
-    break;
-  case ("*"):aler("Le resultat est "+ ""+(nbre1 * nbre2));
+
+  function userPrompt() {
+    var operation = prompt("Choisissez un signe + / - * ");
+    var nbre1 = parseInt(prompt("Entrez le premier nombre"));
+    var nbre2 = parseInt(prompt("Entrez le deuxieme nombre"));
+    calculatrice(operation, nbre1, nbre2);
+  }
+
+  function calculatrice(richard, bernadette, jacques) {
+    switch (richard) {
+      case ("+"):alert("Le resultat est "+ ""+ (bernadette + jacques));
       break;
-  case ("/"):alert("Le resultat est "+ ""+(nbre1 / nbre2));
-        break;
-  case ("-"):alert("Le resultat est "+ ""+(nbre1 - nbre2));
-          break;
+      case ("*"):aler("Le resultat est "+ ""+(bernadette * jacques));
+      break;
+      case ("/"):alert("Le resultat est "+ ""+(bernadette / jacques));
+      break;
+      case ("-"):alert("Le resultat est "+ ""+(bernadette - jacques));
+      break;
 
-  default:
-    console.log("Recommencez");
-}
-</script>
+      default:
+      console.log("Recommencez");
+    }
+  }
+
+  var a = 10;
+  function check(jean){
+    if(jean == 0){
+      console.log("a = 0");
+    } else {
+      console.log("a pas égal à 0, a est égal à " + a);
+      a--;
+      check(a);
+    };
+  };
+
+  check(a);
+
+  </script>
 </body>
 </html>
