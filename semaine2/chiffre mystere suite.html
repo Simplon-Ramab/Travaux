@@ -1,4 +1,7 @@
+
+
 <!DOCTYPE html>
+<<<<<<< HEAD
 <html lang="fr">
 <head>
   <meta charset="utf-8">
@@ -48,6 +51,122 @@
   </script>
 </body>
 </html>
+=======
+
+<html lang="fr">
+
+  <head>
+
+    <meta charset="utf-8">
+
+    <title>Le juste nombre</title>
+
+  </head>
+
+  <body>
+
+    <script type="text/javascript">
+
+    var find = Math.round(Math.random()*100);
+
+    //alert(find);
+
+    document.write(find); // voir le nombre que la Machine à choisie
+
+    console.log(find);
+
+​
+
+    /*
+
+    tire un nombre entier au sort ( entre 0 et 100 )
+
+    le fait deviner à l’aide d’indices ‘Plus grand’, ‘plus petit’, ‘Beaucoup plus grand’, ‘Beaucoup plus petit’ ( “Beaucoup” si plus de 10 d’écart )
+
+    permet de continuer de jouer jusqu’à ce qu’on devine.
+
+*/
+
+    var found =true;
+
+    var rep = prompt("Deviner un chiffre entre 0 et 100.");
+
+    while (found) {
+
+​
+
+      if (rep == find){
+
+        alert("Bravo.");
+
+        found = false;
+
+        break;
+
+      }
+
+​
+
+      else if (rep >= find+10) {
+
+        alert("La reponse est beaucoup plus petite.");
+
+        //found = true;
+
+      }
+
+​
+
+      else if (rep <= find-10) {
+
+        alert("La reponse est beaucoup plus grande.");
+
+        //found = true;
+
+      }
+
+​
+
+      else if (rep > find) {
+
+        alert("La reponse est plus petite.");
+
+        //found = true;
+
+      }
+
+​
+
+      else if (rep < find) {
+
+        alert("La reponse est plus grande.");
+
+        //found = true;
+
+      }
+
+      else {
+
+        alert("Erreur!!");
+
+        //found = true;
+
+      }
+
+      rep = prompt("Deviner un chiffre entre 0 et 100.");
+
+      //break;
+
+    }
+
+    </script>
+
+  </body>
+
+</html>
+
+
+>>>>>>> fd4a598e038d21808e9f8ed8038bcdc7293fe223
 }
 alert ("Vous avez trouvé");
 </script>
