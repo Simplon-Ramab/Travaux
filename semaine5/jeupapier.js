@@ -1,0 +1,27 @@
+var tab =["feuille", "papier", "ciseau", "puit"];
+
+var Ordi = tab[Math.floor(Math.random()*tab.length)];
+
+function jeu(){
+  User = prompt("Choisissez-vous pierre, feuille, ciseaux, puit ?");
+  if(User===Ordi){alert("egalité");}
+  else if ((User=="pierre")&&(Ordi=="ciseau")){
+    alert("Tu gagnes");}
+    else if((User=="ciseau")&&(Ordi=="feuille")){
+      alert("Tu gagnes");}
+      else if((User=="ciseau")&&(Ordi=="feuille")){
+        alert("Tu gagnes");}
+        else if((User=="papier")&&(Ordi=="puit")){
+          alert("Tu gagnes");}
+          else if((User=="papier")&&(Ordi=="pierre")){
+            alert("Tu gagnes");}
+            else if((User=="puit")&&(Ordi=="ciseau")){
+              alert("Tu gagnes");}
+              else if((User=="puit")&&(Ordi=="pierre")){
+                alert("Tu gagnes");}
+                else{ alert("Tu perds");
+                alert( "Votre choix est " + User +" Le choix de l'ordi "+ Ordi);
+              }
+            }
+            jeu();
+            confirm("Veux tu jouer");{jeu();}
