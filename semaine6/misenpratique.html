@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+
+		<title>
+
+		</title>
+	</head>
+	<body>
+		<script type="text/javascript">
+		var pays = [
+			{pays: 'France', capitale: 'Paris'},
+			{pays: 'Espagne', capitale: 'Madrid'},
+			{pays: 'Italie', capitale: 'Rome'},
+			{pays: 'Belgique', capitale: 'Bruxelles'}
+		];
+		var essai=0;
+		var compteur=0;
+		function alea(x){
+		return Math.floor(Math.random()*x)	;
+		}
+		var index = alea(pays.length)
+		var qpays=pays[index].pays;
+		var capitale=(pays[index].capitale).toLowerCase();
+		var question=prompt("Quelle est la capitale de "+qpays );
+
+		function quizz(){
+			while((essai<=3)||(compteur<=4)){
+			if(question==capitale){
+				compteur=compteur+1
+				pays.splice(index,1);
+			alert("Bravo");
+			}
+			else{
+				essai++;
+			}
+			return "Perdu";
+		}
+		}
+		quizz();
+		</script>
+	</body>
+</html>

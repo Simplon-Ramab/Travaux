@@ -1,0 +1,320 @@
+body{
+  background-color:white;
+  font-family: Helvetica;
+  font-size: 20px;
+  font-weight: bold;
+  height:400vh;
+}
+/* partie accueil*/
+#accueil{
+  background-color: #00719B;
+  color: white;
+  text-align: center;
+  height:50vh;
+  width:auto;
+
+}
+#accueil h1{
+  font-size: 60px;
+  position: absolute;
+top:50px;
+left:490px;
+}
+#accueil a{
+  font-size: 30px;
+  position: absolute;
+top:190px;
+left:660px;
+text-decoration: none;
+background-color: white;
+padding: 10px;
+color: #00719B;
+font-weight: bold;
+}
+#accueil a:hover{
+color: white;
+background-color: #00719B;
+border: solid white 3px;
+
+}
+#accueil p{
+  font-size: 20px;
+  position: absolute;
+top:270px;
+left:510px;
+color: white;
+}
+/* partie risques*/
+
+#risque{
+margin-top: 20px;
+background-color:  #F2F2F2;
+padding: 30px;
+height:60vh;
+border: dotted #00719B 5px;
+}
+#risque h1{
+  color:white;
+text-align: center;
+border: solid white 3px;
+background-color: red;
+width:500px;
+margin-left: 430px
+}
+#risque h2{
+  color:white;
+text-align: center;
+border: solid white 3px;
+background-color: red;
+width:500px;
+}
+#risque img{
+  position:absolute;
+  left:700px;
+  top:1000px;
+}
+
+
+.niveau1 {
+  position:absolute;
+  left:130px;
+  top:1150px;
+  border:solid #F2DE00 4px;
+color:white;
+font-size: 20px;
+width:520px;
+height:95px;
+text-align: center;
+background-color: #F2DE00;
+padding-bottom: 16px;
+padding-left: 8px;
+padding-right: 8px;
+border-radius:8px;
+}
+.niveau1 h3 {
+  position:absolute;
+color:#F2DE00;
+width:200px;
+top:-100px;
+left:395px;
+font-size: 35px;
+text-align: left;
+}
+
+.niveau2 {
+  position:absolute;
+  left:760px;
+  top:1300px;
+  border:solid orange 4px;
+color:white;
+font-size: 20px;
+width:450px;
+height:85px;
+text-align: center;
+background-color: orange;
+padding-bottom: 16px;
+padding-left: 8px;
+padding-right: 8px;
+border-radius:8px;
+}
+.niveau2 h3 {
+  position:absolute;
+color:orange;
+top:-99px;
+left:-6px;
+font-size: 35px;
+}
+
+.niveau3 h3 {
+  position:absolute;
+color:red;
+top:-100px;
+left:310px;
+font-size: 35px;
+}
+.niveau3 {
+  position:absolute;
+  top:1400px;
+  left:200px;
+  border:solid red 4px;
+color:white;
+font-size: 20px;
+width:450px;
+height:85px;
+text-align: center;
+background-color: red;
+padding-bottom: 16px;
+padding-left: 8px;
+padding-right: 8px;
+border-radius:8px;
+}
+
+.niveau4 h3 {
+  position:absolute;
+color:black;
+top:-100px;
+left:5px;
+font-size: 35px;
+}
+.niveau4 {
+  position:absolute;
+  top:1550px;
+  left:770px;
+  border:solid black 4px;
+color:white;
+font-size: 20px;
+width:450px;
+height:85px;
+text-align: center;
+background-color: black;
+padding-bottom: 16px;
+padding-left: 8px;
+padding-right: 8px;
+border-radius:8px;
+}
+#precaution{
+  position: absolute;
+  top:1760px;
+margin-top: 20px;
+background-color:  #F2F2F2;
+padding: 30px;
+height:110vh;
+border: dotted #00719B 5px;
+width:1440px;;
+}
+#precaution h1{
+  color:white;
+text-align: center;
+border: solid white 3px;
+background-color: red;
+width:700px;
+margin-left: 330px
+}
+.photos{
+  display: inline-block;
+  margin: 15px;
+  padding-right: 5px;
+}
+footer{
+  top:2830px;
+  position: absolute;
+  width:1510px;
+  height:250px;
+  background-color: #00719B;
+  color:white;
+  padding:0px;
+}
+
+.logos{
+  display: inline-block;
+  padding:0px;
+    float: right;
+  margin-top: 85px;
+
+}
+.logo1{
+  top:80px;
+  position:absolute;
+  left:1070px;
+}
+.logo2{
+  top:80px;
+  position:absolute;
+  left:1180px;
+}
+.logo3{
+  top:80px;
+  position:absolute;
+  left:1290px;
+}
+.logo4{
+  top:80px;
+  position:absolute;
+  left:1400px;
+}
+.titre {
+position: absolute;
+top:2180px;
+color:blue;
+
+}
+.h1 {
+position: absolute;
+left: 80px;
+width:400px;
+}
+.h2 {
+position: absolute;
+left: 580px;
+}
+.h3 {
+position: absolute;
+left: 1000px;
+width:600px;
+}
+.texte1{
+  position:absolute;
+  font-weight: normal;
+  width:460px;
+  top:2250px;
+  left:40px;
+  background-color: white;
+  text-align: justify;
+}
+.texte2{
+  position:absolute;
+  font-weight: normal;
+  width:450px;
+  top:2250px;
+  left:520px;
+  background-color: white;
+  text-align: justify;
+  height:405px;
+}
+.texte3{
+  position:absolute;
+  font-weight: normal;
+  width:450px;
+  top:2250px;
+  left:1010px;
+  background-color: white;
+  text-align: justify;
+  height:405px;
+}
+#middle {
+  font-size: 30px;
+  position: absolute;
+top:2700px;
+left:660px;
+text-decoration: none;
+background-color: #00719B;
+padding: 10px;
+color: white;
+font-weight: bold;
+}
+#middle:hover{
+color: #00719B;
+background-color: white;
+border: solid #00719B 3px;
+
+}
+.savoir {
+  position: absolute;
+  left:15px;
+  top:15px;
+  font-size: 15px;
+}
+h2.last{
+  position: absolute;
+  left: 1100px;
+  top: -5px;
+}
+.savoir a{
+  color:white;
+}
+.savoir1{
+  position: absolute;
+  top:30px;
+  left:650px;
+    font-size: 15px;
+}

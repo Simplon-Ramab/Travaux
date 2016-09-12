@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>
+    </title>
+  </head>
+  <body>
+    <!--PARTIE HTML-->
+    <!--exo1 changer couleur background-->
+    <a href="#" onclick="changeCouleurFond('red')">Rouge</a>
+    <a href="#" onclick="changeCouleurFond('grey')">Gris</a>
+    <a href="#" onclick="changeCouleurFond('yellow')">Jaune</a>
+    <a href="#" onclick="changeCouleurFond('white')">Blanc</a>
+
+    <!--exo3 masquer et afficher-->
+    <div id="b1" class="bloc" onclick="masqueBloc('b1')">A Masquez moi</div>
+    <div id="b2" class="bloc" onclick="masqueBloc('b2')">B Masquez moi</div>
+    <div id="b3" class="bloc" onclick="masqueBloc('b3')">C Masquez moi</div>
+    <div id="b4" class="bloc" onclick="masqueBloc('b4')">D Masquez moi</div>
+
+    <div><a href="#" onclick="afficheTousLesBlocs()">Afficher tous</a></div>
+
+
+
+<!--PARTIE JAVASCRIPT-->
+    <script type="text/javascript">
+    //exo1 changer background
+    document.body.style.backgroundColor = 'beige';
+    function changeCouleurFond(couleur){
+      document.body.style.backgroundColor = couleur;
+    }
+
+  //exo3 maquer et afficger
+    function masqueBloc(blocId){
+      /* ? on masque le bloc cliqué */
+      document.getElementsByClassName('bloc')[blocId].style.display = 'none';
+      document.getElementById('bloc'+blocId).classList.remove('selected');
+    }
+    function afficheTousLesBlocs(){
+      /* ? on affiche tous les blocs de la page » qu'ont ils en commun ? leur class ! */
+     var blocs=document.getElementsByClassName('bloc');
+      for(var i=0; blocs.length;i++){
+        blocs[i].style.display = 'block';
+      }
+    }
+
+
+  </script>
+
+  </body>
+</html>

@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Secondes minutes</title>
+  </head>
+  <body>
+    <script type="text/javascript">
+
+  //1 écrire une fonction qui reçoit une nombre de secondes et renvoie un texte en minutes 123
+  var minute=0;
+  var time =0;
+  var secondes;
+  function secondesEnMinutes(seconde){
+    if(time>=0){
+      minute= Math.floor(seconde/60);
+      secondes= seconde%60+"s";
+      return minute+"m"+secondes;
+    }
+  }
+  secondesEnMinutes(123);
+
+//secondesEnMinutes(3723) // renvoie 1h 2m 3s
+var minute=0;
+var time =0;
+var secondes;
+var heures;
+function secondesEnMinutes(seconde){
+  if(time>=0){
+    heures=Math.floor(seconde/3600);
+    minute= Math.floor(seconde/60);
+    minute=minute%60;
+    secondes= seconde%60+"s";
+    return heures+"h"+minute+"m"+secondes;
+  }
+}
+secondesEnMinutes(3723);
+
+
+
+
+    </script>
+
+  </body>
+</html>

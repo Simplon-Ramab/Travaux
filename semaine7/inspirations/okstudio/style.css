@@ -1,0 +1,106 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    overflow-x: hidden;
+}
+#feuille{
+    position: fixed;
+    height: 40px;
+    width: 100%;
+    background: rgba(90, 88, 88,.5);
+}
+
+#nav {
+    list-style: none;
+    float: right;
+    position: relative;
+}
+#nav li {
+    float: left;
+    display: block;
+    height: 40px;
+    width: 200px;
+    text-align: center;
+    line-height: 40px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700;
+    box-sizing:border-box;
+    color:white;
+    border-left: 1px inline rgba(225,225,225,.5);
+    border-right: 1px inline rgba(225,225,225,.5);
+    transition: 0.4s
+}
+#nav li:hover{
+  background-color: white;
+  color: #D9D91F;
+}
+.image {
+  height:100vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+.section{
+text-align: center;
+  height: 40vh;
+box-shadow: -1px 1px 5px 0px #656565;
+box-shadow: inset 1px -1px 5px 0px #656565;
+
+}
+.one{
+  background-color: #D8D820;
+}
+
+.two{
+  background-color: #445E6B;
+}
+.un{
+  background-image: url("okstudio1.jpg");
+}
+.deux{
+  background-image: url("okstudio2.jpg");
+}
+.trois{
+  background-image: url("parallax1.jpg");
+
+  width:100%;
+}
+
+h1{
+  position: absolute;
+  font-size: 60px;
+  left:600px;
+  color:white;
+  top:800px;
+}
+.one p{
+  position: absolute;
+  font-size: 40px;
+  text-align:center;
+  animation: texte 3s ease-out;
+  color:white;
+  top:900px;
+  left:350px;
+}
+.two p{
+
+  font-size: 40px;
+  text-align:center;
+  animation: texte 3s ease-out;
+  color:white;
+  top:2000px;
+  padding: 20px;
+}
+@keyframes texte {
+    from {
+			opacity: 0.1;
+      transform: translateY(100px) scale(1);
+    }
+  }
+
+#dernier {
+    height: 100%;
+    width: 100%;
+}

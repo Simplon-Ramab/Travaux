@@ -1,0 +1,39 @@
+html,
+body {
+  height: 100%;
+  width: 100%;
+  /*background:-webkit-linear-gradient(top , #50a3a2 0%, #53e3a6 100%);
+  background:-moz-linear-gradient(top , #50a3a2 0%, #53e3a6 100%);*/
+  font-family:Tahoma;
+}
+
+.boite {
+  position: absolute;
+  top: 40%;
+  left: 25%;
+  right: 25%;
+}
+
+#datej {
+  color: white;
+  text-align: center;
+  font-size: 3em;
+  opacity: 0.8;
+}
+
+#temps {
+  color: white;
+  text-align: center;
+  font-size: 10em;
+  opacity: 0.8;
+}
+#cont_f91d805027fd79f0e5a136c5bacd6d43{
+  position: absolute;
+top:150px;
+left:650px;
+
+}
+#cont_f91d805027fd79f0e5a136c5bacd6d43:hover{
+   transition: ease-in-out, 0.5s , ease-in ;
+  transform: scale(2,2);
+}

@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>setInterval/clearInterval example</title>
+
+<script>
+var intervalID;
+
+function changeCouleur() {
+  intervalID = setInterval(flashText, 1000);
+}
+
+function flashText() {
+  var elem = document.getElementById("ma_boite");
+
+  if (elem.style.color == 'red') {
+    elem.style.color = 'blue';
+  } else {
+    elem.style.color = 'red';
+  }
+}
+
+function stopTextColor() {
+  clearInterval(intervalID);
+}
+</script>
+</head>
+
+<body onload="changeCouleur();">
+<div id="ma_boite">
+<p>Salut tout le monde</p>
+</div>
+<button onclick="stopTextColor();">Stop</button>
+</body>
+</html>
