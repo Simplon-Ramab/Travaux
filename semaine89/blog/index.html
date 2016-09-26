@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Exemple Bootstrap</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js">
+    </script>
+    <script type="text/javascript" src="script.js">
+
+    </script>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Baloo+Bhaina|Cabin+Sketch:400,700|Coming+Soon" rel="stylesheet">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Compatibilité IE < 9-->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body onload="pop()">
+  <!-- entete-->
+  <header class="container-fluid header">
+<div >
+<a href="#" class="logo">MON LOGO<img src="" ></a>
+<div class="bande"></div>
+<nav class="menu" >
+  <a href="#">Accueil</a>
+  <a href="#">A propos</a>
+  <a href="#">Actualités</a>
+  <a href="#">Porfolio</a>
+  <a href="#">Contact</a>
+</nav>
+</div>
+  </header>
+  <!-- fin-entete-->
+  <!-- banniere-->
+  <section class="container-fluid banniere">
+    <div class="ban">
+      <center><img class="imgaccueil" src="glace.jpg"></center>
+    </div>
+    <!-- <div class="inner-banner">
+<h1>Bienvenue dans mon blog</h1>
+<button class="btn bnt-custom">Contact</button>
+    </div> -->
+    <hr class="line"></hr>
+  </section>
+  <!-- fin banniere-->
+<center><h1 class="col-md-12  titrea">Actualités</h1></center>
+  <!-- A propos-->
+<center>  <section  class="container-fluid articles">
+    <div class="row">
+      <div class="container">
+        <article class="col-md-12 ">
+          <div class="blog-post">
+            <h1 class="blog-title">Gateau mousse au choco</h1>
+            <img src="choco.jpg" alt="img">
+
+            <p class="side-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum..</p>
+  <a href="#" class="post-link">Suite...</a>
+  <h5 class="date">19 septembre 2016</h5>
+          </div>
+        </article>
+
+          <article class="col-md-12">
+            <div class="blog-post">
+              <h1 class="blog-title">Fraisier aux noix</h1>
+              <img src="fraisier.jpg" alt="img">
+              <p class="side-content">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum..</p>
+            </div>
+            <a href="#" class="post-link">Suite...</a>
+          <h5 class="date">19 septembre 2016</h5>
+          </div>
+        </div>
+    </article>
+  </div>
+</div>
+  </section></center>
+  <!-- fin a propos-->
+
+  <!-- footer-->
+
+    <!-- Trigger/Open The Modal -->
+
+
+<!-- The Modal -->
+
+<footer >
+  <button class="myBtn btn btn-glow" >Ajouter un article</button>
+  <div id="myModal" class="modal">
+
+   <!-- Modal content -->
+   <div class="modal-content">
+     <span class="close">x</span>
+     <center><h1 class="titreA">Ajouter votre article</h1></center>
+
+     <div class="form-group">
+    <label class="col-md-5 control-label" for="blog_title">Ajouter un titre</label>
+    <div class="col-md-5">
+    <input id="article_title" name="blog_title" type="text" placeholder="titre de votre article" class="form-control input-md">
+
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="col-md-5 control-label" for="article_date">Date</label>
+    <div class="col-md-5">
+    <input id="article_date" name="article_date" type="text" placeholder="La date de la publication " class="form-control input-md">
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="col-md-5 control-label" for="source_image">Image (format en 400x800 px)</label>
+    <div class="col-md-5">
+      <input id="source_image" name="source_image" class="input-file" type="file">
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="col-md-5 control-label" for="source_description">Rediger votre article</label>
+    <div class="col-md-5">
+      <textarea class="form-control" id="source_description" name="source_description"></textarea>
+    </div>
+  </div>
+  <button id="myBtnV" onclick="ajoutArticle()">Valider</button>
+   </div>
+  </div>
+
+</footer>
+  <!-- fin footer-->
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>

@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Exemple Bootstrap</title>
+<link rel="stylesheet" href="style.css">
+    <!-- Bootstrap -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+    <!-- Optional theme -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+    <!-- Compatibilité IE < 9-->
+    <!--[if lt IE 9]>
+    <script src="https://oss.maxcdn.com/html5shiv/3.7.3/html5shiv.min.js"></script>
+    <script src="https://oss.maxcdn.com/respond/1.4.2/respond.min.js"></script>
+    <![endif]-->
+</head>
+<body class="container">
+<h1>Page bootstrap de base</h1>
+<div class="row"> <!-- création d'une ligne -->
+  <!--  Zone principale -->
+          <div class="col-md-10 col-sm-8 col-xs-6">
+                 <h2>Zone principale - élément 1</h2>
+          </div>
+
+          <!-- Zone secondaire  -->
+          <div class="col-md-2 col-sm-4 col-xs-6">
+                 <h2>Zone secondaire - élément 2</h2>
+          </div>
+     <!-- Fermeture de la ligne -->
+           </div>
+<!-- imbriquer plusieurs colonnes -->
+           <div class="container">
+
+<!-- Déclaration de la première grille, au niveau du corps de la page. -->
+	<div class="row">
+
+<!-- Création d'une première zone dont la largeur sera égale à 9 colonnes -->
+		<div class="col-md-9">
+		<h2>9 colonnes</h2>
+
+<!-- Création de la seconde grille, cette dernière aura une largeur égale de de la première zone que nous venons de créer  -->
+		<div class="row">
+
+<!-- Insertion d’une première section qui occupe 3 colonnes de notre nouvelle grille. -->
+			<div class="col-xs-3">
+			<p>.col-xs-3</p>
+			</div>
+
+<!-- pareil pour l’élément précédent sauf que cette section occupera 5 colonnes de la grille-->
+			<div class="col-xs-5">
+			<p>.col-xs-5</p>
+			</div>
+
+<!-- cette derniere section occupe le reste de la grille (4 colonnes) -->
+			<div class="col-xs-4">
+			<p>.col-xs-5</p>
+			</div>
+
+		</div>
+
+		</div>
+
+	</div>
+
+</div>
+<!-- Changer l’ordre des éléments dans une grille -->
+<div class="container">
+
+  <div class="row">
+
+   <div class="col-md-4 col-md-push-8">
+    <p>Zone déclarée en premier!</p>
+   </div>
+
+   <div class="col-md-8 col-md-pull-4">
+    <p>Zone déclarée en deuxième!</p>
+   </div>
+
+  </div>
+
+</div>
+<!-- Les wells permettent d’insérer du texte ou tout autre contenu HTML (listes, liens, …) dans une boite. celle-ci a un arrière plan gris et des bordures aux coins arrondis.-->
+<div class="well .well-sm">Nullam ultricies ligula vehicula, laoreet urna pharetra, aliquam dui. Vestibulum sit amet venenatis mauris.</div>
+
+<!-- ajouter un résumé à la tête d’un long texte -->
+<h1>opentuto.com</h1>
+<p class="lead">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rhoncus dolor vel ante mollis dapibus. Fusce pharetra sem nec risus condimentum lobortis. Pellentesque at augue nunc. Vivamus accumsan ante quis tellus convallis, a commodo</p>
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut rhoncus dolor vel ante mollis dapibus. Fusce pharetra sem nec risus condimentum lobortis. Pellentesque at augue nunc. Vivamus accumsan ante quis tellus convallis, a commodo libero tempor. Duis laoreet nunc arcu, id commodo tortor porttitor in. Quisque volutpat ultricies malesuada. Vestibulum non nisl suscipit, dapibus arcu sed, pellentesque est. Morbi accumsan diam eget tristique fermentum. Phasellus vel nibh sed elit consequat consequat sit amet et dui. Curabitur eget egestas nisi, sed fringilla sapien. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed lacinia, purus nec feugiat tempor, massa neque eleifend justo, ac aliquam libero dolor at est. Fusce a molestie sem, ac vulputate diam. Cras vel bibendum erat, non imperdiet turpis. Nulla tincidunt magna id lacus suscipit iaculis. </p>
+
+<!-- classes d’emphase pour générer des messages d’information basiques -->
+<div class="container">
+<div class="row">
+  <p class="text-muted">   Classe muted - Gris</p>
+<p class="text-primary"> Classe primary - Bleu pâle</p>
+<p class="text-success"> Classe success - Vert</p>
+<p class="text-info">    Classe info - Bleu</p>
+<p class="text-warning"> Classe warning - Orange</p>
+<p class="text-danger">  Classe danger - Rouge</p
+</div>
+</div>
+
+<!-- Pour créer d’alerte, il convent de faire appel à la classe .alert -->
+<div class="container">
+<div class="row">
+  <p class="alert alert-success">Bandeau d’alerte - la classe success</p>
+<p class="alert alert-info">Bandeau d’alerte - la classe info</p>
+<p class="alert alert-warning">Bandeau d’alerte - la classe warning</p>
+<p class="alert alert-danger">Bandeau d’alerte - la classe danger</p>
+</div>
+
+</div>
+<!-- Pour créer  le bouton fermer d’alerte -->
+<div class="container">
+   <br/>
+          <div class="alert alert-dismissable alert-success">
+                 <button type="button" class="close" data-dismiss="alert" aria-hidden="true">&times;</button>
+
+                 <p>Visitez notre premier opentuto : Bootstrap 3! <a href="http://www.opentuto.com/tutoriels/maitriser-bootstrap-3-par-la-pratique/">Bootstrap 3</a></p>
+
+                 <p><button id="myButton" type="button" class="btn btn-primary">Fermer</button></p>
+
+           </div> <!-- Fin du bandeau d'alerte -->
+<!-- les labels -->
+           <p>
+   Exemple  :
+   <a href="#"><span class="label label-default">Default</span></a>
+   <a href="#"><span class="label label-primary">Primary</span></a>
+   <a href="#"><span class="label label-success">Success</span></a>
+   <a href="#"><span class="label label-info">Info</span></a>
+   <a href="#"><span class="label label-warning">Warning</span></a>
+   <a href="#"><span class="label label-danger">Danger</span></a>
+</p>
+
+<!-- les icones -->
+
+<h1><span class="glyphicon glyphicon-arrow-right"></span> Les  ic&ocirc;nes </h1>
+
+<h1><span class="glyphicon glyphicon-envelope"></span> Contact </h1>
+
+<p><span class="glyphicon glyphicon-home"></span> Accueil</p>
+
+<span class="label label-primary"><span class="glyphicon glyphicon-comment"></span> 3 commentaires</span>     </br></br>
+
+<button class="btn btn-warning"><span class="glyphicon  glyphicon-shopping-cart"></span> Ajouter au panier</button>    </br></br>
+
+<p class="text-warning lead"><span class="glyphicon  glyphicon-warning-sign"></span> Classe warning</p>
+
+<!-- icones gratuites -->
+<div class="container">
+        <p>
+    Réseaux sociaux:
+
+    <i class="fa fa-linkedin-square"></i>
+    <i class="fa fa-facebook-square"></i>
+    <i class="fa fa-google-plus-square"></i>
+
+     </p>
+
+      </div>
+<!-- tailles icones  -->
+      <i class="fa fa-twitter"></i> Icône normale <br>
+<i class="fa fa-twitter fa-lg"></i> fa-lg<br>
+<i class="fa fa-twitter fa-2x"></i> fa-2x<br>
+<i class="fa fa-twitter fa-3x"></i> fa-3x<br>
+<i class="fa fa-twitter fa-4x"></i> fa-4x<br>
+<i class="fa fa-twitter fa-5x"></i> fa-5x<br>
+
+<p>Nous rejoindre sur :</p>
+   <ul class="fa-ul">
+      <li><i class="fa-li fa fa-twitter"></i> Twitter</li>
+      <li><i class="fa-li fa fa-facebook-official"></i> Facebook</li>
+      <li><i class="fa-li fa fa-google-plus"></i> Google +</li>
+      <li><i class="fa-li fa fa-youtube-play"></i> Youtube</li>
+   </ul>
+
+            <script>
+                  $('#myButton').click(function(){ /* Après le clic sur l'élément dont l'id est "myButton" (le bouton dans notre cas) "*/
+                        $('.alert').alert('close'); /* Faire disparaitre le bandeau d'alerte*/
+                  });
+            </script>
+    </div>
+    </div>
+
+
+<!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+</body>
+</html>

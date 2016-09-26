@@ -1,0 +1,15 @@
+.row{
+  border:red 1px solid;
+}
+.col-md-9{
+  border:green 2px solid;
+}
+.col-xs-6{
+  border:blue 2px solid;
+}
+.col-xs-5{
+  border:yellow 2px solid;
+}
+.col-xs-3{
+  border:purple 2px solid;
+}
