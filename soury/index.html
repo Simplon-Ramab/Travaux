@@ -14,41 +14,63 @@
     <div class="container-fluid">
     <header>
       <div class="barre">
+      <div class="row">
+        <div class="col-xs-12 col-md-4 col-lg-4">
+          <h1 id="user"></h1>
+        </div>
+        <div class="col-xs-12 col-md-4 col-lg-4"
         <center><img  id="soury" src="soury.png" alt="" /></center>
+        </div>
+        <div class="col-xs-12 col-md-4 col-lg-4">
+        <a href="javascript:document.location.href='index.html'">  <h1 id="quitter"></h1></a>
+        </div
     </header>
     </div>
-    <div class="container-fluid">
+      </div>
+    <div class="container-fluid login">
       <form class="col-lg-12 text-center">
-        <label for="">Entre ton mot de passe</label></br>
+        <label id ="entre" for="">Entre ton mot de passe</label></br>
         <input type="text" id="mdp" name="name"></br>
     <input type="password" id="pword" name="name"></br>
-    <button type="button" name="button" onclick="verif()"> Clique</button>
+    <button type="button" id="clique" name="button" onclick="verif()"> Clique</button>
       </form>
 
 <div id="matieres" >
+  <h1 id="demo"></h1>
 <h2 class="text-center ">Choisis tes matieres</h2>
   <center >  <div class="row">
+    <div class="col-xs-12 col-md-4 col-lg-4">
+    <div class="francais top2 top3">
+      <h3 class="text-center">Français</h3>
+    </div>
+    </div>
       <div class="col-xs-12 col-md-4 col-lg-4">
-    <div class="maths">
+    <div class="maths top1 top3">
       <h3 class="text-center">Maths</h3>
     </div>
     </div>
+
     <div class="col-xs-12 col-md-4 col-lg-4">
-    <div class="anglais">
+    <div class="anglais top1 top2">
       <h3 class="text-center">Anglais</h3>
-    </div>
-    </div>
-    <div class="col-xs-12 col-md-4 col-lg-4">
-    <div class="francais">
-      <h3 class="text-center">Français</h3>
     </div>
     </div>
       </div>
     </center>
 </div>
-</div>
-<p id="selection">
-
+<center>
+<div id="blocquizzf">
+<h2 id="blocf">Question</h2>
+<p id="blocq">
 </p>
-  </body>
+<p id="choix">
+</p>
+<input type="text" id="blocr" name="name" value=""></input>
+<button type="button" class="btn btn-primary" name="button" onclick="verifieReponse()">Valider</button>
+
+</div>
+</center>
+
+
+</div>  </body>
 </html>

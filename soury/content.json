@@ -3,74 +3,76 @@
     {
       "nom":"ce2",
       "prenom":"Habib",
+      "motpasse":12345,
       "matieres":
       [
         {
           "nom":"Français",
+          "image":"",
           "quizz":
           [
             {
-              "intitulé":" remplacez la phrase par a ou à?",
-              "question":"papa est parti ... la maison",
-              "choix":["et", "12", "a", "à"],
+              "question":"Ecris la bonne réponse : papa est rentré ... la maison",
+              "choix":["et", " 12", " a", " à"],
               "reponse":"à"
             },
             {
-              "intitulé":" replacez la phrase par et ou est?",
-              "question":"papa... parti à la maison",
-              "choix":["et", "12", "est", "à"],
+              "question":" Ecris la bonne réponse: papa... parti à la maison",
+              "choix":["et", " 12", " est", " à"],
               "reponse":"est"
             },
             {
-              "question":"?",
-              "choix":"",
-              "reponse":""
+              "question":"Ecris la forme verbale qui convient. Il …………………un bonhomme. (dessiner)",
+              "choix":["dessinent", " dessine", " deçine", " dessines"],
+              "reponse":"dessine"
             },
             {
-              "question":"?",
-              "choix":"",
-              "reponse":""
+              "question":"Quel est le synonyme de Colis?",
+              "choix":["livreur"," paquet", " lettre"," tiroir"],
+              "reponse":"paquet"
             },
             {
-              "question":"?",
-              "choix":"",
-              "reponse":""
+              "question":"Lequel de ces mots est du genre féminin ?",
+              "choix":["pétale"," vison", " geole"," chenet"],
+              "reponse":"pétale"
             }
           ]
         },
         {
           "nom":"Maths",
+          "image":"",
           "quizz":
           [
             {
               "question":"Combien font 7x5?",
               "choix":"",
-              "reponse":""
+              "reponse":"35"
             },
             {
-              "question":"?",
+              "question":"Combien font 3x5?",
               "choix":"",
-              "reponse":""
+              "reponse":"15"
             },
             {
-              "question":"?",
+              "question":" Combien font 100 - 72?",
               "choix":"",
-              "reponse":""
+              "reponse":"18"
             },
             {
-              "question":"?",
+              "question":"Combien font 97 + 15?",
               "choix":"",
-              "reponse":""
+              "reponse":"102"
             },
             {
-              "question":"?",
+              "question":"Combien font 16 / 4?",
               "choix":"",
-              "reponse":""
+              "reponse":"4"
             }
           ]
         },
         {
           "nom":"Anglais",
+          "image":"",
           "quizz":
           [
             {
@@ -105,10 +107,12 @@
     {
       "nom":"5eme",
       "prenom":"Adama",
+      "motpasse":12345,
       "matieres":
       [
         {
           "nom":"Français",
+          "image":"",
           "quizz":
           [
             {
@@ -140,6 +144,7 @@
         },
         {
           "nom":"Maths",
+          "image":"",
           "quizz":[
             {
               "question":"?",
@@ -170,6 +175,7 @@
         },
         {
           "nom":"Anglais",
+          "image":"",
           "quizz":
           [
             {
