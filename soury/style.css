@@ -68,7 +68,7 @@ border-radius: 10px;
 }
 #demo {
   text-align: center;
-  font-size: 45px;
+  font-size: 65px;
   color:white;
 }
 #user {
@@ -108,11 +108,11 @@ background-color: #F8CD36;
   padding-top: 5vh;
   font-weight: bold;
   color:white;
-  font-size:40px;
+  font-size:50px;
 }
 input#blocr{
-    width:40vh;
-    height:5vh;
+    width:78vh;
+    height:8vh;
 }
 
 .anglais {
@@ -137,16 +137,25 @@ filter:progid:DXImageTransform.Microsoft.Shadow(color=#343434, Direction=134, St
 border-radius: 10px;
 }
 input{
-  width:40vh;
-  height:5vh;
-  font-size: 30px;
+  width:60vh;
+  height:8vh;
+  font-size: 45px;
+  font-weight:bold;
+}
+.ident{
+  margin-top: 13vh
+}
+input#blocr{
+  width:60vh;
+  height:8vh;
+  font-size: 50px;
   font-weight:bold;
 }
 input:focus {
     background-color: yellow;
 }
 #entre{
-  font-size: 40px;
+  font-size: 50px;
   color:white;
 
 }
@@ -154,7 +163,27 @@ input:focus {
   text-align:
 }
 #clique{
-  width:15vh;
-  height:5vh;
-  font-size: 20px;
+
+}
+#comment{
+  padding-top: 1vh;
+  margin-top:50px;
+  font-weight: bold;
+  color:#286CA0;
+  font-size:40px;
+}
+.btn-secondary{
+
+  font-weight: bold;
+  font-size: 40px;
+  height: 8vh;
+  width:30vh;
+
+}
+.btn-primary{
+  font-weight: bold;
+  font-size: 40px;
+  height: 8vh;
+  width:30vh
+
 }

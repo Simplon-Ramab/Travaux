@@ -28,11 +28,11 @@
     </div>
       </div>
     <div class="container-fluid login">
-      <form class="col-lg-12 text-center">
+      <form class="col-lg-12 ident text-center">
         <label id ="entre" for="">Entre ton mot de passe</label></br>
-        <input type="text" id="mdp" name="name"></br>
-    <input type="password" id="pword" name="name"></br>
-    <button type="button" id="clique" name="button" onclick="verif()"> Clique</button>
+        <input type="text" id="mdp" name="name"></br></br>
+    <input type="password" id="pword" name="name"></br></br>
+    <button type="button" class="btn btn-secondary btn-lg" id="clique" name="button" onclick="verif()"> Clique</button>
       </form>
 
 <div id="matieres" >
@@ -60,13 +60,15 @@
 </div>
 <center>
 <div id="blocquizzf">
+  <div id=blocqr>
 <h2 id="blocf">Question</h2>
-<p id="blocq">
-</p>
-<p id="choix">
-</p>
-<input type="text" id="blocr" name="name" value=""></input>
-<button type="button" class="btn btn-primary" name="button" onclick="verifieReponse()">Valider</button>
+<p id="blocq"></p>
+<p id="choix"></p>
+<input type="text" id="blocr" name="name" value=""></input></br></br>
+<button type="button" class="btn btn-primary btn-lg" name="button" onclick="verifieReponse()">Valider</button>
+</div>
+<p id="comment"></p>
+<p id="compteur"></p>
 
 </div>
 </center>

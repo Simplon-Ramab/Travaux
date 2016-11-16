@@ -6,15 +6,13 @@ function verif(){
   var pwd1=data.classes[0].motpasse;
   var user2= data.classes[1].prenom;
   var pwd2=data.classes[1].motpasse;
-
-
-
   if((login==user1)&&(password==pwd1)){
     document.getElementById("user").innerHTML = data.classes[0].prenom;
     document.getElementById("demo").innerHTML = "Salut";
     document.getElementById("quitter").innerHTML = "Quitter";
     $(document).ready(function(){
-      $("#matieres").fadeIn(2000, function(){
+      $(".ident").slideUp(1000, function(){
+      $("#matieres").fadeIn(1500, function(){
         $("form").slideUp("slow");
         $(".francais").click("slow", function(){
           $("#matieres").hide("slow", function(){
@@ -22,23 +20,22 @@ function verif(){
             $("#blocquizzf").show("slow");
             afficheQuestion();
           });
-      });
-      $(".maths").click("slow", function(){
-        $("#matieres").hide("slow", function(){
-          $("#blocquizzf").show("slow").css("background-color","#56DEA7");
-cem();
-
         });
-    });
-    $(".anglais").click("slow", function(){
-      $("#matieres").hide("slow", function(){
-        $("#blocquizzf").show("slow").css("background-color","#F26175 ");
+        $(".maths").click("slow", function(){
+          $("#matieres").hide("slow", function(){
+            $("#blocquizzf").show("slow").css("background-color","#56DEA7");
+            cem();
+
+          });
+        });
+        $(".anglais").click("slow", function(){
+          $("#matieres").hide("slow", function(){
+            $("#blocquizzf").show("slow").css("background-color","#F26175 ");
 
 
+          });
+        });
       });
-  });
-
-
       });
     })
   }
@@ -50,10 +47,8 @@ cem();
         $("form").slideUp("slow");
         $(".francais").click("slow", function(){
           $("#matieres").hide("slow", function(){
-
-
           });
-      });
+        });
       });
     })
   }
@@ -66,127 +61,77 @@ function traiteResultat(event){
   console.log("resultat", event.target.responseText);
   data = JSON.parse(event.target.responseText);
   console.log('Classe', data.classes);
+  listeQuestions = data.classes[0].matieres[0].quizz;
   return data;
 }
 var requete = new XMLHttpRequest();
-requete.onload = traiteResultat.bind(this);
+requete.onloadend = traiteResultat.bind(this);
 requete.open("get", "content.json", true);
 requete.send();
 
-
-
+var count=0;
 var indexQuestion = 0;
-       var listeQuestions = data.classes[0].matieres[0].quizz;
-       function afficheQuestion(){
-           var questionEnCours = listeQuestions[ indexQuestion ];
-           document.getElementById('blocq').innerText = questionEnCours.texte;
-           document.getElementById('blocr').value = "";
-       }
-       function verifieReponse() {
-           var reponseUtilisateur = document.getElementById('blocr').value;
-           var reponseJuste = listeQuestions[ indexQuestion ].reponse;
-           if (reponseUtilisateur.toLowerCase() == reponseJuste.toLowerCase()) {
-               indexQuestion += 1;
-               if( listeQuestions.length > indexQuestion )
-               {
-                   alert('bravo');
-                   afficheQuestion();
-               } else
-                   alert('bravo / terminé');
+var listeQuestions;
+var blocq=document.getElementById('blocq');
+var choix=document.getElementById('choix');
+var comment=document.getElementById('comment');
 
-           }
-           else {
-               alert('faux');
-           }
-       }
+function afficheQuestion(){
+  var blocq=document.getElementById('blocq');
+  var choix=document.getElementById('choix');
+  var questionEnCours = listeQuestions[ indexQuestion ];
+  blocq.innerText = questionEnCours.question;
+  choix.innerText = listeQuestions[ indexQuestion ].choix;
+  document.getElementById('blocr').value="";
+}
+function verifieReponse() {
+  var reponseUtilisateur = document.getElementById('blocr').value;
+  var reponseJuste = listeQuestions[ indexQuestion ].reponse;
+  var comment=document.getElementById('comment');
+  if (reponseUtilisateur.toLowerCase() == reponseJuste.toLowerCase()) {
+    comment.innerText="Bravo Habib";
+    indexQuestion += 1;
+count++;
+comment.innerText="Bravo Habib";
+comment.style.color="green";
+comment.style.backgroundColor="white";
+comment.style.height="8vh";
+comment.style.width="70vh";
+    if( listeQuestions.length > indexQuestion )
+    {
+      afficheQuestion();
 
+    } else{
+      if(count<=(indexQuestion/2)){
+      comment.innerText="Terminé tu as "+ count+ " points . Bravo";
+    }
+    else{
+      $("#blocqr").hide();
+      comment.innerText="Terminé tu as "+ count+ " points. \n Encore des petits efforts";
+    }
+    }
+    }
+    else {
+      indexQuestion += 1;
+      comment.innerText="Faux! la reponse est "+reponseJuste;
 
-// function cef(){
-//
-//   function rand(a){
-//     return Math.floor(Math.random()*a);
-//   }
-//   do{
-//   var blocr = document.getElementById('blocr').value;
-//     var questionf = data.classes[0].matieres[0].quizz;
-// var count;
-//     var tailleInit = (data.classes[0].matieres[0].quizz).length;
-//     var nombreDeReussite =0;
-//     do{
-//       var tentative = 1;
-//       var index = rand(questionf.length-1);
-//       var quizzf = questionf[index].question;
-//       var reponsef = questionf[index].reponse.toLowerCase();
-//       var reussi = true;
-//
-//       do{
-//         document.getElementById("blocq").innerHTML = questionf[index].question;
-//         document.getElementById("choix").innerHTML = questionf[index].choix;
-//         if(blocr == reponsef){
-//           console.log("Bravo");
-//           reussi = true;
-//           count++;
-//         }else{
-//           console.log("faux");
-//           reussi = false;
-//         }
-//         tentative++;
-//       }while(tentative < 4 && !reussi);
-//
-//       questionf.splice(index,1);
-//       if(reussi){
-//         nombreDeReussite++;
-//       }
-//     }while(questionf.length >= 1);
-//     alert(nombreDeReussite+" reponse juste sur "+ tailleInit);
-//     if(nombreDeReussite == tailleInit){
-//     console.log("juste");
-//     }else{
-//     console.log(" ca vas");
-//     }
-//   }while(console.log("faux"));
-// };
-// function cem(){
-//
-//   function rand(a){
-//     return Math.floor(Math.random()*a);
-//   }
-//   do{
-//     var questionf = data.classes[0].matieres[1].quizz;
-// var count;
-//     var tailleInit = (data.classes[0].matieres[1].quizz).length;
-//     var nombreDeReussite =0;
-//     do{
-//       var tentative = 1;
-//       var index = rand(questionf.length-1);
-//       var quizzf = questionf[index].question;
-//       var reponsef = questionf[index].reponse.toLowerCase();
-//       var reussi = true;
-//
-//       do{
-//         document.getElementById("blocq").innerHTML = questionf[index].question;
-//         document.getElementById("choix").innerHTML = questionf[index].choix;
-//         if(blocr === reponsef){
-//           alert("Bravo");
-//           reussi = true;
-//           count++;
-//         }else{
-//           alert("faux");
-//           reussi = false;
-//         }
-//         tentative++;
-//       }while(tentative < 4 && !reussi);
-//
-//       questionf.splice(index,1);
-//       if(reussi){
-//         nombreDeReussite++;
-//       }
-//     }while(questionf.length >= 1);
-//     alert(nombreDeReussite+" reponse juste sur "+ tailleInit);
-//     if(nombreDeReussite == tailleInit){
-//       alert("juste");
-//     }else{
-//       alert(" ca vas");
-//     }
-//   }while(confirm("faux"));
-// };
+      comment.style.color="red";
+      comment.style.backgroundColor="white";
+      comment.style.height="8vh";
+      comment.style.width="70vh";
+      if( listeQuestions.length > indexQuestion )
+      {
+        afficheQuestion();
+
+      } else{
+        if(count>=(indexQuestion/2)){
+        comment.innerText="Terminé tu as "+ count+ " points . Bravo";
+      }
+      else{
+        $("#blocqr").hide();
+        comment.innerText="Terminé tu as "+ count+ " points. \n Encore des petits efforts";
+      }
+      }
+      }
+
+  }
