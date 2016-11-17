@@ -1,0 +1,1405 @@
+{
+ "kind": "calendar#events",
+ "etag": "\"p32kctnk1kelt00g\"",
+ "summary": "Pédago Lyon",
+ "description": "",
+ "updated": "2016-11-15T17:21:35.369Z",
+ "timeZone": "Europe/Paris",
+ "accessRole": "reader",
+ "defaultReminders": [],
+ "nextSyncToken": "CKjO3oGjq9ACEAAYAQ==",
+ "items": [
+  {
+   "kind": "calendar#event",
+   "etag": "\"2891187137408000\"",
+   "id": "qpp11k3999agbrqe39aca23ln4",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=cXBwMTFrMzk5OWFnYnJxZTM5YWNhMjNsbjQgc2ltcGxvbi5jb183c2Mwc3AwNzN1M3N2dWtwb3BtaG9iOWZtZ0Bn",
+   "created": "2015-10-23T09:46:08.000Z",
+   "updated": "2015-10-23T09:46:08.704Z",
+   "summary": "Face Territoire Bourbonnais",
+   "creator": {
+    "email": "mathilde@simplon.co",
+    "displayName": "Mathilde Aglietta"
+   },
+   "organizer": {
+    "email": "simplon.co_7sc0sp073u3svukpopmhob9fmg@group.calendar.google.com",
+    "displayName": "Pédago Lyon",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2015-11-25T10:00:00+01:00"
+   },
+   "end": {
+    "dateTime": "2015-11-25T11:00:00+01:00"
+   },
+   "iCalUID": "qpp11k3999agbrqe39aca23ln4@google.com",
+   "sequence": 0,
+   "hangoutLink": "https://plus.google.com/hangouts/_/simplon.co/face-territoire?hceid=c2ltcGxvbi5jb183c2Mwc3AwNzN1M3N2dWtwb3BtaG9iOWZtZ0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t.qpp11k3999agbrqe39aca23ln4"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"2898977562878000\"",
+   "id": "tp834870lbl2v9ugdb9lqajldo",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=dHA4MzQ4NzBsYmwydjl1Z2RiOWxxYWpsZG8gc2ltcGxvbi5jb183c2Mwc3AwNzN1M3N2dWtwb3BtaG9iOWZtZ0Bn",
+   "created": "2015-11-13T11:34:00.000Z",
+   "updated": "2015-12-07T11:46:21.439Z",
+   "summary": "Soirée Languages collaboratif ",
+   "description": "Précisions à demander @Samuel",
+   "creator": {
+    "email": "mathilde@simplon.co",
+    "displayName": "Mathilde Aglietta"
+   },
+   "organizer": {
+    "email": "simplon.co_7sc0sp073u3svukpopmhob9fmg@group.calendar.google.com",
+    "displayName": "Pédago Lyon",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2015-11-26T19:00:00+01:00"
+   },
+   "end": {
+    "dateTime": "2015-11-26T22:00:00+01:00"
+   },
+   "iCalUID": "tp834870lbl2v9ugdb9lqajldo@google.com",
+   "sequence": 0,
+   "hangoutLink": "https://plus.google.com/hangouts/_/simplon.co/soir-e?hceid=c2ltcGxvbi5jb183c2Mwc3AwNzN1M3N2dWtwb3BtaG9iOWZtZ0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t.tp834870lbl2v9ugdb9lqajldo"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"2901421501844000\"",
+   "id": "he1hlvc7l4h1q930srgr14pgso",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=aGUxaGx2YzdsNGgxcTkzMHNyZ3IxNHBnc28gc2ltcGxvbi5jb183c2Mwc3AwNzN1M3N2dWtwb3BtaG9iOWZtZ0Bn",
+   "created": "2015-12-21T15:12:30.000Z",
+   "updated": "2015-12-21T15:12:30.922Z",
+   "summary": "Atelier Cité d'Or",
+   "creator": {
+    "email": "mathilde@simplon.co",
+    "displayName": "Mathilde Aglietta"
+   },
+   "organizer": {
+    "email": "simplon.co_7sc0sp073u3svukpopmhob9fmg@group.calendar.google.com",
+    "displayName": "Pédago Lyon",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2016-01-06T18:00:00+01:00"
+   },
+   "end": {
+    "dateTime": "2016-01-06T20:00:00+01:00"
+   },
+   "iCalUID": "he1hlvc7l4h1q930srgr14pgso@google.com",
+   "sequence": 0,
+   "hangoutLink": "https://plus.google.com/hangouts/_/simplon.co/atelier-cit-d?hceid=c2ltcGxvbi5jb183c2Mwc3AwNzN1M3N2dWtwb3BtaG9iOWZtZ0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t.he1hlvc7l4h1q930srgr14pgso"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"2901421565246000\"",
+   "id": "n6eimhvda2okgp9c7taq20c7hc",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=bjZlaW1odmRhMm9rZ3A5Yzd0YXEyMGM3aGMgc2ltcGxvbi5jb183c2Mwc3AwNzN1M3N2dWtwb3BtaG9iOWZtZ0Bn",
+   "created": "2015-12-21T15:13:02.000Z",
+   "updated": "2015-12-21T15:13:02.623Z",
+   "summary": "Atelier Cités d'Or ",
+   "creator": {
+    "email": "mathilde@simplon.co",
+    "displayName": "Mathilde Aglietta"
+   },
+   "organizer": {
+    "email": "simplon.co_7sc0sp073u3svukpopmhob9fmg@group.calendar.google.com",
+    "displayName": "Pédago Lyon",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2016-01-13T18:00:00+01:00"
+   },
+   "end": {
+    "dateTime": "2016-01-13T20:00:00+01:00"
+   },
+   "iCalUID": "n6eimhvda2okgp9c7taq20c7hc@google.com",
+   "sequence": 0,
+   "hangoutLink": "https://plus.google.com/hangouts/_/simplon.co/atelier-cit-s-d?hceid=c2ltcGxvbi5jb183c2Mwc3AwNzN1M3N2dWtwb3BtaG9iOWZtZ0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t.n6eimhvda2okgp9c7taq20c7hc"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"2901421611214000\"",
+   "id": "asakccsf6s5v3fn8o2lteusb2k",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=YXNha2Njc2Y2czV2M2ZuOG8ybHRldXNiMmsgc2ltcGxvbi5jb183c2Mwc3AwNzN1M3N2dWtwb3BtaG9iOWZtZ0Bn",
+   "created": "2015-12-21T15:13:25.000Z",
+   "updated": "2015-12-21T15:13:25.607Z",
+   "summary": "Ateliers Cité D'Or",
+   "creator": {
+    "email": "mathilde@simplon.co",
+    "displayName": "Mathilde Aglietta"
+   },
+   "organizer": {
+    "email": "simplon.co_7sc0sp073u3svukpopmhob9fmg@group.calendar.google.com",
+    "displayName": "Pédago Lyon",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2016-01-20T18:00:00+01:00"
+   },
+   "end": {
+    "dateTime": "2016-01-20T20:00:00+01:00"
+   },
+   "iCalUID": "asakccsf6s5v3fn8o2lteusb2k@google.com",
+   "sequence": 0,
+   "hangoutLink": "https://plus.google.com/hangouts/_/simplon.co/ateliers-cit-d?hceid=c2ltcGxvbi5jb183c2Mwc3AwNzN1M3N2dWtwb3BtaG9iOWZtZ0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t.asakccsf6s5v3fn8o2lteusb2k"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"2906441127788000\"",
+   "id": "41sk2ra3t7lonalk4s7snco1jo",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=NDFzazJyYTN0N2xvbmFsazRzN3NuY28xam8gc2ltcGxvbi5jb183c2Mwc3AwNzN1M3N2dWtwb3BtaG9iOWZtZ0Bn",
+   "created": "2016-01-15T08:16:10.000Z",
+   "updated": "2016-01-19T16:22:43.894Z",
+   "summary": "Rencontre Simplonniens / volontaires AFEV",
+   "creator": {
+    "email": "mathilde@simplon.co",
+    "displayName": "Mathilde Aglietta"
+   },
+   "organizer": {
+    "email": "simplon.co_7sc0sp073u3svukpopmhob9fmg@group.calendar.google.com",
+    "displayName": "Pédago Lyon",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2016-02-18T17:30:00+01:00"
+   },
+   "end": {
+    "dateTime": "2016-02-18T19:30:00+01:00"
+   },
+   "iCalUID": "41sk2ra3t7lonalk4s7snco1jo@google.com",
+   "sequence": 1,
+   "hangoutLink": "https://plus.google.com/hangouts/_/simplon.co/rencontre?hceid=c2ltcGxvbi5jb183c2Mwc3AwNzN1M3N2dWtwb3BtaG9iOWZtZ0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t.41sk2ra3t7lonalk4s7snco1jo"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"2906441207780000\"",
+   "id": "srj2lbpgnetqe2vjkfp92fk9ts",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=c3JqMmxicGduZXRxZTJ2amtmcDkyZms5dHMgc2ltcGxvbi5jb183c2Mwc3AwNzN1M3N2dWtwb3BtaG9iOWZtZ0Bn",
+   "created": "2016-01-15T08:23:13.000Z",
+   "updated": "2016-01-19T16:23:23.890Z",
+   "summary": "Atelier Code AFEV collégiens + formation aux engagés ",
+   "creator": {
+    "email": "mathilde@simplon.co",
+    "displayName": "Mathilde Aglietta"
+   },
+   "organizer": {
+    "email": "simplon.co_7sc0sp073u3svukpopmhob9fmg@group.calendar.google.com",
+    "displayName": "Pédago Lyon",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2016-03-16T14:00:00+01:00"
+   },
+   "end": {
+    "dateTime": "2016-03-16T17:00:00+01:00"
+   },
+   "iCalUID": "srj2lbpgnetqe2vjkfp92fk9ts@google.com",
+   "sequence": 0,
+   "hangoutLink": "https://plus.google.com/hangouts/_/simplon.co/atelier-code?hceid=c2ltcGxvbi5jb183c2Mwc3AwNzN1M3N2dWtwb3BtaG9iOWZtZ0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t.srj2lbpgnetqe2vjkfp92fk9ts"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"2908974764282000\"",
+   "id": "u3r029j9s0a317tkp4uasc7pdk",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=dTNyMDI5ajlzMGEzMTd0a3A0dWFzYzdwZGsgc2ltcGxvbi5jb183c2Mwc3AwNzN1M3N2dWtwb3BtaG9iOWZtZ0Bn",
+   "created": "2016-01-12T10:32:45.000Z",
+   "updated": "2016-02-03T08:16:22.141Z",
+   "summary": "Projet Site de la Promo ",
+   "creator": {
+    "email": "mathilde@simplon.co",
+    "displayName": "Mathilde Aglietta"
+   },
+   "organizer": {
+    "email": "simplon.co_7sc0sp073u3svukpopmhob9fmg@group.calendar.google.com",
+    "displayName": "Pédago Lyon",
+    "self": true
+   },
+   "start": {
+    "date": "2016-02-04"
+   },
+   "end": {
+    "date": "2016-02-06"
+   },
+   "transparency": "transparent",
+   "iCalUID": "u3r029j9s0a317tkp4uasc7pdk@google.com",
+   "sequence": 0,
+   "attendees": [
+    {
+     "email": "simplon.co_7sc0sp073u3svukpopmhob9fmg@group.calendar.google.com",
+     "displayName": "Pédago Lyon",
+     "organizer": true,
+     "self": true,
+     "responseStatus": "accepted"
+    }
+   ],
+   "hangoutLink": "https://plus.google.com/hangouts/_/simplon.co/projet-site-de?hceid=c2ltcGxvbi5jb183c2Mwc3AwNzN1M3N2dWtwb3BtaG9iOWZtZ0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t.u3r029j9s0a317tkp4uasc7pdk"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"2909758774730000\"",
+   "id": "unrc5ti9nhj05gekm0ogu65gc0",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=dW5yYzV0aTluaGowNWdla20wb2d1NjVnYzAgc2ltcGxvbi5jb183c2Mwc3AwNzN1M3N2dWtwb3BtaG9iOWZtZ0Bn",
+   "created": "2016-01-12T10:32:49.000Z",
+   "updated": "2016-02-07T21:09:47.365Z",
+   "summary": "Projet Site de la Promo ",
+   "creator": {
+    "email": "mathilde@simplon.co",
+    "displayName": "Mathilde Aglietta"
+   },
+   "organizer": {
+    "email": "simplon.co_7sc0sp073u3svukpopmhob9fmg@group.calendar.google.com",
+    "displayName": "Pédago Lyon",
+    "self": true
+   },
+   "start": {
+    "date": "2016-02-08"
+   },
+   "end": {
+    "date": "2016-02-10"
+   },
+   "transparency": "transparent",
+   "iCalUID": "unrc5ti9nhj05gekm0ogu65gc0@google.com",
+   "sequence": 0,
+   "attendees": [
+    {
+     "email": "simplon.co_7sc0sp073u3svukpopmhob9fmg@group.calendar.google.com",
+     "displayName": "Pédago Lyon",
+     "organizer": true,
+     "self": true,
+     "responseStatus": "accepted"
+    }
+   ],
+   "hangoutLink": "https://plus.google.com/hangouts/_/simplon.co/mathilde?hceid=c2ltcGxvbi5jb183c2Mwc3AwNzN1M3N2dWtwb3BtaG9iOWZtZ0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t.unrc5ti9nhj05gekm0ogu65gc0"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"2911419735912000\"",
+   "id": "5uolgalnfpm29c760h9j0c9kfo",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=NXVvbGdhbG5mcG0yOWM3NjBoOWowYzlrZm8gc2ltcGxvbi5jb183c2Mwc3AwNzN1M3N2dWtwb3BtaG9iOWZtZ0Bn",
+   "created": "2016-02-17T11:51:07.000Z",
+   "updated": "2016-02-17T11:51:07.956Z",
+   "summary": "Atelier CV",
+   "creator": {
+    "email": "mathilde@simplon.co",
+    "displayName": "Mathilde Aglietta"
+   },
+   "organizer": {
+    "email": "simplon.co_7sc0sp073u3svukpopmhob9fmg@group.calendar.google.com",
+    "displayName": "Pédago Lyon",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2016-02-25T14:00:00+01:00"
+   },
+   "end": {
+    "dateTime": "2016-02-25T17:30:00+01:00"
+   },
+   "iCalUID": "5uolgalnfpm29c760h9j0c9kfo@google.com",
+   "sequence": 0,
+   "hangoutLink": "https://plus.google.com/hangouts/_/simplon.co/atelier-cv?hceid=c2ltcGxvbi5jb183c2Mwc3AwNzN1M3N2dWtwb3BtaG9iOWZtZ0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t.5uolgalnfpm29c760h9j0c9kfo"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"2912316202186000\"",
+   "id": "leosc6mfef9mdga85uqpicu52s",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=bGVvc2M2bWZlZjltZGdhODV1cXBpY3U1MnMgc2ltcGxvbi5jb183c2Mwc3AwNzN1M3N2dWtwb3BtaG9iOWZtZ0Bn",
+   "created": "2016-02-22T16:21:41.000Z",
+   "updated": "2016-02-22T16:21:41.093Z",
+   "summary": "Swift avec Erick",
+   "creator": {
+    "email": "samuel.eyre73@gmail.com",
+    "displayName": "samuel eyre"
+   },
+   "organizer": {
+    "email": "simplon.co_7sc0sp073u3svukpopmhob9fmg@group.calendar.google.com",
+    "displayName": "Pédago Lyon",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2016-02-25T18:00:00+01:00"
+   },
+   "end": {
+    "dateTime": "2016-02-25T20:00:00+01:00"
+   },
+   "iCalUID": "leosc6mfef9mdga85uqpicu52s@google.com",
+   "sequence": 0
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"2913651841012000\"",
+   "id": "hq3s37t8eugtku4fnvh38rksqk",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=aHEzczM3dDhldWd0a3U0Zm52aDM4cmtzcWsgc2ltcGxvbi5jb183c2Mwc3AwNzN1M3N2dWtwb3BtaG9iOWZtZ0Bn",
+   "created": "2016-02-16T15:55:46.000Z",
+   "updated": "2016-03-01T09:52:00.506Z",
+   "summary": "SPEED RECRUTING",
+   "creator": {
+    "email": "mathilde@simplon.co",
+    "displayName": "Mathilde Aglietta"
+   },
+   "organizer": {
+    "email": "simplon.co_7sc0sp073u3svukpopmhob9fmg@group.calendar.google.com",
+    "displayName": "Pédago Lyon",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2016-03-01T09:30:00+01:00"
+   },
+   "end": {
+    "dateTime": "2016-03-01T12:30:00+01:00"
+   },
+   "iCalUID": "hq3s37t8eugtku4fnvh38rksqk@google.com",
+   "sequence": 0,
+   "hangoutLink": "https://plus.google.com/hangouts/_/simplon.co/mathilde?hceid=c2ltcGxvbi5jb183c2Mwc3AwNzN1M3N2dWtwb3BtaG9iOWZtZ0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t.hq3s37t8eugtku4fnvh38rksqk"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"2914205369172000\"",
+   "id": "gjvmo79802mvnnhl48dm9rr7ao",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=Z2p2bW83OTgwMm12bm5obDQ4ZG05cnI3YW8gc2ltcGxvbi5jb183c2Mwc3AwNzN1M3N2dWtwb3BtaG9iOWZtZ0Bn",
+   "created": "2016-03-04T14:44:05.000Z",
+   "updated": "2016-03-04T14:44:44.586Z",
+   "summary": "visite EPSI",
+   "location": "7 Rue Curie, 69006 Lyon, France",
+   "creator": {
+    "email": "samuel.eyre73@gmail.com",
+    "displayName": "samuel eyre"
+   },
+   "organizer": {
+    "email": "simplon.co_7sc0sp073u3svukpopmhob9fmg@group.calendar.google.com",
+    "displayName": "Pédago Lyon",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2016-03-11T10:00:00+01:00"
+   },
+   "end": {
+    "dateTime": "2016-03-11T12:30:00+01:00"
+   },
+   "iCalUID": "gjvmo79802mvnnhl48dm9rr7ao@google.com",
+   "sequence": 0
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"2914205826592000\"",
+   "id": "9vknlfm4vg076of8m7vj7n8fds",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=OXZrbmxmbTR2ZzA3Nm9mOG03dmo3bjhmZHMgc2ltcGxvbi5jb183c2Mwc3AwNzN1M3N2dWtwb3BtaG9iOWZtZ0Bn",
+   "created": "2016-03-04T14:48:33.000Z",
+   "updated": "2016-03-04T14:48:33.296Z",
+   "summary": "Missions Locales @Simplon",
+   "creator": {
+    "email": "samuel.eyre73@gmail.com",
+    "displayName": "samuel eyre"
+   },
+   "organizer": {
+    "email": "simplon.co_7sc0sp073u3svukpopmhob9fmg@group.calendar.google.com",
+    "displayName": "Pédago Lyon",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2016-03-17T15:00:00+01:00"
+   },
+   "end": {
+    "dateTime": "2016-03-17T17:00:00+01:00"
+   },
+   "iCalUID": "9vknlfm4vg076of8m7vj7n8fds@google.com",
+   "sequence": 0
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"2916252501848000\"",
+   "id": "fa71vg7ij8q6uat1lrcfntoqqg",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=ZmE3MXZnN2lqOHE2dWF0MWxyY2ZudG9xcWcgc2ltcGxvbi5jb183c2Mwc3AwNzN1M3N2dWtwb3BtaG9iOWZtZ0Bn",
+   "created": "2016-03-10T12:00:32.000Z",
+   "updated": "2016-03-16T11:04:10.924Z",
+   "summary": "hackaton logement",
+   "creator": {
+    "email": "samuel.eyre73@gmail.com",
+    "displayName": "samuel eyre"
+   },
+   "organizer": {
+    "email": "simplon.co_7sc0sp073u3svukpopmhob9fmg@group.calendar.google.com",
+    "displayName": "Pédago Lyon",
+    "self": true
+   },
+   "start": {
+    "date": "2016-03-17"
+   },
+   "end": {
+    "date": "2016-03-19"
+   },
+   "transparency": "transparent",
+   "iCalUID": "fa71vg7ij8q6uat1lrcfntoqqg@google.com",
+   "sequence": 0
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"2917835038910000\"",
+   "id": "dvs4o0anrfete9n582nd1u1luo",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=ZHZzNG8wYW5yZmV0ZTluNTgybmQxdTFsdW8gc2ltcGxvbi5jb183c2Mwc3AwNzN1M3N2dWtwb3BtaG9iOWZtZ0Bn",
+   "created": "2016-03-25T14:51:59.000Z",
+   "updated": "2016-03-25T14:51:59.455Z",
+   "summary": "journée Design Thinking Veolia",
+   "creator": {
+    "email": "samuel.eyre73@gmail.com",
+    "displayName": "samuel eyre"
+   },
+   "organizer": {
+    "email": "simplon.co_7sc0sp073u3svukpopmhob9fmg@group.calendar.google.com",
+    "displayName": "Pédago Lyon",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2016-03-29T09:30:00+02:00"
+   },
+   "end": {
+    "dateTime": "2016-03-29T12:00:00+02:00"
+   },
+   "iCalUID": "dvs4o0anrfete9n582nd1u1luo@google.com",
+   "sequence": 0
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"2918344731890000\"",
+   "id": "_6kqj0cq4611j4b9m8l232b9k60p3iba28gp3cb9n8cp3id1p68o46cq288",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzZrcWowY3E0NjExajRiOW04bDIzMmI5azYwcDNpYmEyOGdwM2NiOW44Y3AzaWQxcDY4bzQ2Y3EyODggc2ltcGxvbi5jb183c2Mwc3AwNzN1M3N2dWtwb3BtaG9iOWZtZ0Bn",
+   "created": "2016-03-28T13:39:25.000Z",
+   "updated": "2016-03-28T13:39:25.945Z",
+   "summary": "Cours décalé jeudi",
+   "creator": {
+    "email": "eghaumez@simplon.co",
+    "displayName": "Erick Ghaumez"
+   },
+   "organizer": {
+    "email": "simplon.co_7sc0sp073u3svukpopmhob9fmg@group.calendar.google.com",
+    "displayName": "Pédago Lyon",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2016-03-29T09:00:00+02:00"
+   },
+   "end": {
+    "dateTime": "2016-03-29T10:00:00+02:00"
+   },
+   "iCalUID": "5503D0C2-6ED1-4029-BD26-7C294920C3BB",
+   "sequence": 0,
+   "hangoutLink": "https://plus.google.com/hangouts/_/simplon.co/cours-d-cal?hceid=c2ltcGxvbi5jb183c2Mwc3AwNzN1M3N2dWtwb3BtaG9iOWZtZ0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t._6kqj0cq4611j4b9m8l232b9k60p3iba28gp3cb9n8cp3id1p68o46cq288"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"2918346513812000\"",
+   "id": "_69348c1o6oq4cb9h68pk4b9k89344ba168rk2b9g8d2k4c1l8d0j2h1o64",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzY5MzQ4YzFvNm9xNGNiOWg2OHBrNGI5azg5MzQ0YmExNjhyazJiOWc4ZDJrNGMxbDhkMGoyaDFvNjQgc2ltcGxvbi5jb183c2Mwc3AwNzN1M3N2dWtwb3BtaG9iOWZtZ0Bn",
+   "created": "2016-03-28T13:54:16.000Z",
+   "updated": "2016-03-28T13:54:16.906Z",
+   "summary": "Code",
+   "creator": {
+    "email": "eghaumez@simplon.co",
+    "displayName": "Erick Ghaumez"
+   },
+   "organizer": {
+    "email": "simplon.co_7sc0sp073u3svukpopmhob9fmg@group.calendar.google.com",
+    "displayName": "Pédago Lyon",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2016-03-31T09:30:00+02:00"
+   },
+   "end": {
+    "dateTime": "2016-03-31T17:30:00+02:00"
+   },
+   "iCalUID": "2FD0864F-123B-4BFB-A27A-0CEB05CA1D81",
+   "sequence": 0,
+   "hangoutLink": "https://plus.google.com/hangouts/_/simplon.co/code?hceid=c2ltcGxvbi5jb183c2Mwc3AwNzN1M3N2dWtwb3BtaG9iOWZtZ0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t._69348c1o6oq4cb9h68pk4b9k89344ba168rk2b9g8d2k4c1l8d0j2h1o64"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"2918654330582000\"",
+   "id": "_8kp30c1m6csj0b9i6133cb9k6t23cba26koj6ba16goj6d1j6d1jeh9l8c",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzhrcDMwYzFtNmNzajBiOWk2MTMzY2I5azZ0MjNjYmEyNmtvajZiYTE2Z29qNmQxajZkMWplaDlsOGMgc2ltcGxvbi5jb183c2Mwc3AwNzN1M3N2dWtwb3BtaG9iOWZtZ0Bn",
+   "created": "2016-03-30T08:39:25.000Z",
+   "updated": "2016-03-30T08:39:25.291Z",
+   "summary": "Digiclub",
+   "creator": {
+    "email": "eghaumez@simplon.co",
+    "displayName": "Erick Ghaumez"
+   },
+   "organizer": {
+    "email": "simplon.co_7sc0sp073u3svukpopmhob9fmg@group.calendar.google.com",
+    "displayName": "Pédago Lyon",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2016-04-05T09:00:00+02:00"
+   },
+   "end": {
+    "dateTime": "2016-04-05T10:00:00+02:00"
+   },
+   "iCalUID": "E2006390-20F6-47D6-B513-A413433C7E5C",
+   "sequence": 0,
+   "hangoutLink": "https://plus.google.com/hangouts/_/simplon.co/digiclub?hceid=c2ltcGxvbi5jb183c2Mwc3AwNzN1M3N2dWtwb3BtaG9iOWZtZ0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t._8kp30c1m6csj0b9i6133cb9k6t23cba26koj6ba16goj6d1j6d1jeh9l8c"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"2919001206000000\"",
+   "id": "4ffnft5vl82foi9idc81rd4m54",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=NGZmbmZ0NXZsODJmb2k5aWRjODFyZDRtNTQgc2ltcGxvbi5jb183c2Mwc3AwNzN1M3N2dWtwb3BtaG9iOWZtZ0Bn",
+   "created": "2016-03-30T16:46:42.000Z",
+   "updated": "2016-04-01T08:50:03.000Z",
+   "summary": "Vincent Ancien Simplonnien @Simplon \"Inspirational speech\"",
+   "creator": {
+    "email": "mathilde@simplon.co",
+    "displayName": "Mathilde Aglietta"
+   },
+   "organizer": {
+    "email": "simplon.co_7sc0sp073u3svukpopmhob9fmg@group.calendar.google.com",
+    "displayName": "Pédago Lyon",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2016-04-01T11:00:00+02:00"
+   },
+   "end": {
+    "dateTime": "2016-04-01T12:00:00+02:00"
+   },
+   "iCalUID": "4ffnft5vl82foi9idc81rd4m54@google.com",
+   "sequence": 0,
+   "hangoutLink": "https://plus.google.com/hangouts/_/simplon.co/mathilde?hceid=c2ltcGxvbi5jb183c2Mwc3AwNzN1M3N2dWtwb3BtaG9iOWZtZ0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t.4ffnft5vl82foi9idc81rd4m54"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"2957038545584000\"",
+   "id": "i1ee0k89l6a9p6hicnrvsjh40s",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=aTFlZTBrODlsNmE5cDZoaWNucnZzamg0MHNfMjAxNTEwMjlUMDgzMDAwWiBzaW1wbG9uLmNvXzdzYzBzcDA3M3Uzc3Z1a3BvcG1ob2I5Zm1nQGc",
+   "created": "2015-10-05T13:27:43.000Z",
+   "updated": "2016-11-07T11:47:52.792Z",
+   "summary": "Soutien Erick / Présentiel ou à distance",
+   "creator": {
+    "email": "mathilde@simplon.co",
+    "displayName": "Mathilde Aglietta"
+   },
+   "organizer": {
+    "email": "simplon.co_7sc0sp073u3svukpopmhob9fmg@group.calendar.google.com",
+    "displayName": "Pédago Lyon",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2015-10-29T09:30:00+01:00",
+    "timeZone": "Europe/Paris"
+   },
+   "end": {
+    "dateTime": "2015-10-29T12:30:00+01:00",
+    "timeZone": "Europe/Paris"
+   },
+   "recurrence": [
+    "RRULE:FREQ=WEEKLY;UNTIL=20161103T083000Z;BYDAY=TH"
+   ],
+   "iCalUID": "i1ee0k89l6a9p6hicnrvsjh40s@google.com",
+   "sequence": 1,
+   "hangoutLink": "https://plus.google.com/hangouts/_/simplon.co/soutien-erick?hceid=c2ltcGxvbi5jb183c2Mwc3AwNzN1M3N2dWtwb3BtaG9iOWZtZ0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t.i1ee0k89l6a9p6hicnrvsjh40s"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"2957038545584000\"",
+   "id": "i1ee0k89l6a9p6hicnrvsjh40s_20151029T083000Z",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=aTFlZTBrODlsNmE5cDZoaWNucnZzamg0MHNfMjAxNTEwMjlUMDgzMDAwWiBzaW1wbG9uLmNvXzdzYzBzcDA3M3Uzc3Z1a3BvcG1ob2I5Zm1nQGc",
+   "created": "2015-10-05T13:27:43.000Z",
+   "updated": "2016-11-07T11:47:52.792Z",
+   "summary": "Soutien : Présentiel ou à distance",
+   "creator": {
+    "email": "mathilde@simplon.co",
+    "displayName": "Mathilde Aglietta"
+   },
+   "organizer": {
+    "email": "simplon.co_7sc0sp073u3svukpopmhob9fmg@group.calendar.google.com",
+    "displayName": "Pédago Lyon",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2015-10-29T09:30:00+01:00",
+    "timeZone": "Europe/Paris"
+   },
+   "end": {
+    "dateTime": "2015-10-29T12:30:00+01:00",
+    "timeZone": "Europe/Paris"
+   },
+   "recurringEventId": "i1ee0k89l6a9p6hicnrvsjh40s",
+   "originalStartTime": {
+    "dateTime": "2015-10-29T09:30:00+01:00",
+    "timeZone": "Europe/Paris"
+   },
+   "iCalUID": "i1ee0k89l6a9p6hicnrvsjh40s@google.com",
+   "sequence": 1,
+   "hangoutLink": "https://plus.google.com/hangouts/_/simplon.co/soutien-erick?hceid=c2ltcGxvbi5jb183c2Mwc3AwNzN1M3N2dWtwb3BtaG9iOWZtZ0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t.i1ee0k89l6a9p6hicnrvsjh40s"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"2957038729766000\"",
+   "id": "a366f8rk5dunsqu8v05o8i1k9g",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=YTM2NmY4cms1ZHVuc3F1OHYwNW84aTFrOWdfMjAxNTEwMjlUMTIzMDAwWiBzaW1wbG9uLmNvXzdzYzBzcDA3M3Uzc3Z1a3BvcG1ob2I5Zm1nQGc",
+   "created": "2015-10-05T13:28:21.000Z",
+   "updated": "2016-11-07T11:49:24.883Z",
+   "summary": "Projet Pédago Digital / accompagné (Mathilde / Stagiaire)",
+   "creator": {
+    "email": "mathilde@simplon.co",
+    "displayName": "Mathilde Aglietta"
+   },
+   "organizer": {
+    "email": "simplon.co_7sc0sp073u3svukpopmhob9fmg@group.calendar.google.com",
+    "displayName": "Pédago Lyon",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2015-10-29T13:30:00+01:00",
+    "timeZone": "Europe/Paris"
+   },
+   "end": {
+    "dateTime": "2015-10-29T17:30:00+01:00",
+    "timeZone": "Europe/Paris"
+   },
+   "recurrence": [
+    "RRULE:FREQ=WEEKLY;UNTIL=20161103T123000Z;BYDAY=TH"
+   ],
+   "iCalUID": "a366f8rk5dunsqu8v05o8i1k9g@google.com",
+   "sequence": 1,
+   "hangoutLink": "https://plus.google.com/hangouts/_/simplon.co/projet-p-dago-1?hceid=c2ltcGxvbi5jb183c2Mwc3AwNzN1M3N2dWtwb3BtaG9iOWZtZ0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t.a366f8rk5dunsqu8v05o8i1k9g"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"2957039379860000\"",
+   "id": "a43p9id713bb29pfa7nsiol238",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=YTQzcDlpZDcxM2JiMjlwZmE3bnNpb2wyMzhfMjAxNTEwMzBUMDgzMDAwWiBzaW1wbG9uLmNvXzdzYzBzcDA3M3Uzc3Z1a3BvcG1ob2I5Zm1nQGc",
+   "created": "2015-10-05T13:29:52.000Z",
+   "updated": "2016-11-07T11:54:49.930Z",
+   "summary": "Projet code / Autonomie ",
+   "creator": {
+    "email": "mathilde@simplon.co",
+    "displayName": "Mathilde Aglietta"
+   },
+   "organizer": {
+    "email": "simplon.co_7sc0sp073u3svukpopmhob9fmg@group.calendar.google.com",
+    "displayName": "Pédago Lyon",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2015-10-30T09:30:00+01:00",
+    "timeZone": "Europe/Paris"
+   },
+   "end": {
+    "dateTime": "2015-10-30T12:30:00+01:00",
+    "timeZone": "Europe/Paris"
+   },
+   "recurrence": [
+    "RRULE:FREQ=WEEKLY;UNTIL=20161104T083000Z;BYDAY=FR"
+   ],
+   "iCalUID": "a43p9id713bb29pfa7nsiol238@google.com",
+   "sequence": 1,
+   "hangoutLink": "https://plus.google.com/hangouts/_/simplon.co/projet-code?hceid=c2ltcGxvbi5jb183c2Mwc3AwNzN1M3N2dWtwb3BtaG9iOWZtZ0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t.a43p9id713bb29pfa7nsiol238"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"2957039406920000\"",
+   "id": "dni0107de1btcbvr26ne2igekg",
+   "status": "cancelled",
+   "htmlLink": "https://www.google.com/calendar/event?eid=ZG5pMDEwN2RlMWJ0Y2J2cjI2bmUyaWdla2dfMjAxNTEwMzBUMTIzMDAwWiBzaW1wbG9uLmNvXzdzYzBzcDA3M3Uzc3Z1a3BvcG1ob2I5Zm1nQGc",
+   "created": "2015-10-05T13:43:12.000Z",
+   "updated": "2016-11-07T11:55:03.460Z",
+   "summary": "Restitution Simplon Kids / Ateliers ",
+   "creator": {
+    "email": "mathilde@simplon.co",
+    "displayName": "Mathilde Aglietta"
+   },
+   "organizer": {
+    "email": "simplon.co_7sc0sp073u3svukpopmhob9fmg@group.calendar.google.com",
+    "displayName": "Pédago Lyon",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2015-10-30T13:30:00+01:00",
+    "timeZone": "Europe/Paris"
+   },
+   "end": {
+    "dateTime": "2015-10-30T17:30:00+01:00",
+    "timeZone": "Europe/Paris"
+   },
+   "recurrence": [
+    "RRULE:FREQ=WEEKLY;UNTIL=20151030T122959Z;BYDAY=FR"
+   ],
+   "iCalUID": "dni0107de1btcbvr26ne2igekg@google.com",
+   "sequence": 1,
+   "hangoutLink": "https://plus.google.com/hangouts/_/simplon.co/restitution?hceid=c2ltcGxvbi5jb183c2Mwc3AwNzN1M3N2dWtwb3BtaG9iOWZtZ0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t.dni0107de1btcbvr26ne2igekg"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"2957039406920000\"",
+   "id": "dni0107de1btcbvr26ne2igekg_20160219T123000Z",
+   "status": "cancelled",
+   "recurringEventId": "dni0107de1btcbvr26ne2igekg_R20151030T123000",
+   "originalStartTime": {
+    "dateTime": "2016-02-19T13:30:00+01:00"
+   }
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"2957039406920000\"",
+   "id": "dni0107de1btcbvr26ne2igekg_R20151030T123000",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=ZG5pMDEwN2RlMWJ0Y2J2cjI2bmUyaWdla2dfUjIwMTUxMDMwVDEyMzAwMF8yMDE1MTAzMFQxMjMwMDBaIHNpbXBsb24uY29fN3NjMHNwMDczdTNzdnVrcG9wbWhvYjlmbWdAZw",
+   "created": "2015-10-05T13:43:12.000Z",
+   "updated": "2016-11-07T11:55:03.460Z",
+   "summary": "Projets Ecole / Restitution / Simplon Kids / Ateliers ",
+   "creator": {
+    "email": "mathilde@simplon.co",
+    "displayName": "Mathilde Aglietta"
+   },
+   "organizer": {
+    "email": "simplon.co_7sc0sp073u3svukpopmhob9fmg@group.calendar.google.com",
+    "displayName": "Pédago Lyon",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2015-10-30T13:30:00+01:00",
+    "timeZone": "Europe/Paris"
+   },
+   "end": {
+    "dateTime": "2015-10-30T17:30:00+01:00",
+    "timeZone": "Europe/Paris"
+   },
+   "recurrence": [
+    "RRULE:FREQ=WEEKLY;UNTIL=20161104T123000Z;BYDAY=FR"
+   ],
+   "iCalUID": "dni0107de1btcbvr26ne2igekg_R20151030T123000@google.com",
+   "sequence": 1,
+   "hangoutLink": "https://plus.google.com/hangouts/_/simplon.co/restitution?hceid=c2ltcGxvbi5jb183c2Mwc3AwNzN1M3N2dWtwb3BtaG9iOWZtZ0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t.dni0107de1btcbvr26ne2igekg"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"2957042687850000\"",
+   "id": "6l8p95fg94etvmo6cjjp65o3ao",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=Nmw4cDk1Zmc5NGV0dm1vNmNqanA2NW8zYW8gc2ltcGxvbi5jb183c2Mwc3AwNzN1M3N2dWtwb3BtaG9iOWZtZ0Bn",
+   "created": "2016-11-07T11:54:27.000Z",
+   "updated": "2016-11-07T12:22:23.925Z",
+   "summary": "Défi Temps limité",
+   "description": "intégration : refaire une maquette Bootstrap\nfront-end : ajax / ph\nback-end : CRUD\nfull : Crud via ajax",
+   "creator": {
+    "email": "eghaumez@simplon.co",
+    "displayName": "Erick Ghaumez"
+   },
+   "organizer": {
+    "email": "simplon.co_7sc0sp073u3svukpopmhob9fmg@group.calendar.google.com",
+    "displayName": "Pédago Lyon",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2016-11-17T09:30:00+01:00"
+   },
+   "end": {
+    "dateTime": "2016-11-17T17:30:00+01:00"
+   },
+   "visibility": "public",
+   "iCalUID": "6l8p95fg94etvmo6cjjp65o3ao@google.com",
+   "sequence": 0,
+   "hangoutLink": "https://plus.google.com/hangouts/_/simplon.co/eghaumez?hceid=ZWdoYXVtZXpAc2ltcGxvbi5jbw.6l8p95fg94etvmo6cjjp65o3ao"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"2957045345452000\"",
+   "id": "05kqkh8nc3ke8t0sgfist1i5hc",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=MDVrcWtoOG5jM2tlOHQwc2dmaXN0MWk1aGMgc2ltcGxvbi5jb183c2Mwc3AwNzN1M3N2dWtwb3BtaG9iOWZtZ0Bn",
+   "created": "2016-11-07T12:44:20.000Z",
+   "updated": "2016-11-07T12:44:32.726Z",
+   "summary": "défi wordpress J1",
+   "creator": {
+    "email": "pycharpenet@simplon.co"
+   },
+   "organizer": {
+    "email": "simplon.co_7sc0sp073u3svukpopmhob9fmg@group.calendar.google.com",
+    "displayName": "Pédago Lyon",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2016-11-30T09:30:00+01:00"
+   },
+   "end": {
+    "dateTime": "2016-11-30T17:30:00+01:00"
+   },
+   "iCalUID": "05kqkh8nc3ke8t0sgfist1i5hc@google.com",
+   "sequence": 0,
+   "hangoutLink": "https://plus.google.com/hangouts/_/simplon.co/pycharpenet?hceid=cHljaGFycGVuZXRAc2ltcGxvbi5jbw.05kqkh8nc3ke8t0sgfist1i5hc"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"2957045408922000\"",
+   "id": "qsjqvme6cqjd5ovflg1puqlkts",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=cXNqcXZtZTZjcWpkNW92ZmxnMXB1cWxrdHMgc2ltcGxvbi5jb183c2Mwc3AwNzN1M3N2dWtwb3BtaG9iOWZtZ0Bn",
+   "created": "2016-11-07T12:44:52.000Z",
+   "updated": "2016-11-07T12:45:04.461Z",
+   "summary": "défi Wordpress J2",
+   "creator": {
+    "email": "pycharpenet@simplon.co"
+   },
+   "organizer": {
+    "email": "simplon.co_7sc0sp073u3svukpopmhob9fmg@group.calendar.google.com",
+    "displayName": "Pédago Lyon",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2016-12-01T09:30:00+01:00"
+   },
+   "end": {
+    "dateTime": "2016-12-01T17:30:00+01:00"
+   },
+   "iCalUID": "qsjqvme6cqjd5ovflg1puqlkts@google.com",
+   "sequence": 0,
+   "hangoutLink": "https://plus.google.com/hangouts/_/simplon.co/pycharpenet?hceid=cHljaGFycGVuZXRAc2ltcGxvbi5jbw.qsjqvme6cqjd5ovflg1puqlkts"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"2957064365586000\"",
+   "id": "6lefg5n0tam2g3vdburi8hcjhs",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=NmxlZmc1bjB0YW0yZzN2ZGJ1cmk4aGNqaHMgc2ltcGxvbi5jb183c2Mwc3AwNzN1M3N2dWtwb3BtaG9iOWZtZ0Bn",
+   "created": "2016-11-07T14:34:45.000Z",
+   "updated": "2016-11-07T15:23:02.793Z",
+   "summary": "cours CM2 / 6ème",
+   "description": "Idriss, Anna-Angelique, Lisa, David",
+   "location": "simplon / école / collège",
+   "creator": {
+    "email": "pycharpenet@simplon.co"
+   },
+   "organizer": {
+    "email": "simplon.co_7sc0sp073u3svukpopmhob9fmg@group.calendar.google.com",
+    "displayName": "Pédago Lyon",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2016-11-10T08:00:00+01:00"
+   },
+   "end": {
+    "dateTime": "2016-11-10T11:00:00+01:00"
+   },
+   "iCalUID": "6lefg5n0tam2g3vdburi8hcjhs@google.com",
+   "sequence": 1,
+   "hangoutLink": "https://plus.google.com/hangouts/_/simplon.co/pycharpenet?hceid=cHljaGFycGVuZXRAc2ltcGxvbi5jbw.6lefg5n0tam2g3vdburi8hcjhs"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"2957065104114000\"",
+   "id": "kmd27mfh8iqkaq0eigeel6ig1k",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=a21kMjdtZmg4aXFrYXEwZWlnZWVsNmlnMWsgc2ltcGxvbi5jb183c2Mwc3AwNzN1M3N2dWtwb3BtaG9iOWZtZ0Bn",
+   "created": "2016-10-28T13:08:20.000Z",
+   "updated": "2016-11-07T15:29:12.057Z",
+   "summary": "férié",
+   "creator": {
+    "email": "pycharpenet@simplon.co"
+   },
+   "organizer": {
+    "email": "simplon.co_7sc0sp073u3svukpopmhob9fmg@group.calendar.google.com",
+    "displayName": "Pédago Lyon",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2016-11-11T09:00:00+01:00"
+   },
+   "end": {
+    "dateTime": "2016-11-11T18:00:00+01:00"
+   },
+   "iCalUID": "kmd27mfh8iqkaq0eigeel6ig1k@google.com",
+   "sequence": 0,
+   "hangoutLink": "https://plus.google.com/hangouts/_/simplon.co/pycharpenet?hceid=cHljaGFycGVuZXRAc2ltcGxvbi5jbw.kmd27mfh8iqkaq0eigeel6ig1k"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"2957065241750000\"",
+   "id": "fnmpq0qvqhavjgb8jqd4hu8s74",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=Zm5tcHEwcXZxaGF2amdiOGpxZDRodThzNzQgc2ltcGxvbi5jb183c2Mwc3AwNzN1M3N2dWtwb3BtaG9iOWZtZ0Bn",
+   "created": "2016-11-07T15:30:20.000Z",
+   "updated": "2016-11-07T15:30:20.875Z",
+   "summary": "dernier jour pour envoyer son CV à Pierre-Yves",
+   "creator": {
+    "email": "pycharpenet@simplon.co"
+   },
+   "organizer": {
+    "email": "simplon.co_7sc0sp073u3svukpopmhob9fmg@group.calendar.google.com",
+    "displayName": "Pédago Lyon",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2016-11-14T14:00:00+01:00"
+   },
+   "end": {
+    "dateTime": "2016-11-14T15:00:00+01:00"
+   },
+   "iCalUID": "fnmpq0qvqhavjgb8jqd4hu8s74@google.com",
+   "sequence": 0,
+   "hangoutLink": "https://plus.google.com/hangouts/_/simplon.co/dernier-jour?hceid=c2ltcGxvbi5jb183c2Mwc3AwNzN1M3N2dWtwb3BtaG9iOWZtZ0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t.fnmpq0qvqhavjgb8jqd4hu8s74"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"2957065710914000\"",
+   "id": "_8l0jce2388okab9n68s42b9k6t230ba16123cb9h74q42hhh712k4di58o",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=XzhsMGpjZTIzODhva2FiOW42OHM0MmI5azZ0MjMwYmExNjEyM2NiOWg3NHE0MmhoaDcxMms0ZGk1OG8gc2ltcGxvbi5jb183c2Mwc3AwNzN1M3N2dWtwb3BtaG9iOWZtZ0Bn",
+   "created": "2016-10-21T15:08:23.000Z",
+   "updated": "2016-11-07T15:34:15.457Z",
+   "summary": "visite de la Région Auvergne-Rhône-Alpes",
+   "description": "concerne les élèves CARED : prévoir 30 minutes pour certains d'entre vous\nvisiteur : Mme guichard, responsable CARED pour la Région",
+   "location": "Simplon",
+   "creator": {
+    "email": "pycharpenet@simplon.co"
+   },
+   "organizer": {
+    "email": "simplon.co_7sc0sp073u3svukpopmhob9fmg@group.calendar.google.com",
+    "displayName": "Pédago Lyon",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2016-11-17T14:30:00+01:00"
+   },
+   "end": {
+    "dateTime": "2016-11-17T16:00:00+01:00"
+   },
+   "iCalUID": "EA68CB1E-728A-47D0-A0D6-194AF18EB6EF",
+   "sequence": 0,
+   "hangoutLink": "https://plus.google.com/hangouts/_/simplon.co/pycharpenet?hceid=cHljaGFycGVuZXRAc2ltcGxvbi5jbw._8l0jce2388okab9n68s42b9k6t230ba16123cb9h74q42hhh712k4di58o"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"2957065957428000\"",
+   "id": "fhc7lslopbeocpbug6trgpm4jg",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=ZmhjN2xzbG9wYmVvY3BidWc2dHJncG00amcgc2ltcGxvbi5jb183c2Mwc3AwNzN1M3N2dWtwb3BtaG9iOWZtZ0Bn",
+   "created": "2016-11-07T15:35:39.000Z",
+   "updated": "2016-11-07T15:36:18.714Z",
+   "summary": "témoignage métier dév en agence",
+   "description": "concerne toute la promo\nIntervenant : Frédéric Raffin-Caboisse, agende Sevanona",
+   "location": "simplon",
+   "creator": {
+    "email": "pycharpenet@simplon.co"
+   },
+   "organizer": {
+    "email": "simplon.co_7sc0sp073u3svukpopmhob9fmg@group.calendar.google.com",
+    "displayName": "Pédago Lyon",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2016-11-18T10:00:00+01:00"
+   },
+   "end": {
+    "dateTime": "2016-11-18T11:00:00+01:00"
+   },
+   "iCalUID": "fhc7lslopbeocpbug6trgpm4jg@google.com",
+   "sequence": 0,
+   "hangoutLink": "https://plus.google.com/hangouts/_/simplon.co/t-moignage-m?hceid=c2ltcGxvbi5jb183c2Mwc3AwNzN1M3N2dWtwb3BtaG9iOWZtZ0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t.fhc7lslopbeocpbug6trgpm4jg"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"2957066005708000\"",
+   "id": "me11d1d4s3psslqdli3kpuivgk",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=bWUxMWQxZDRzM3Bzc2xxZGxpM2twdWl2Z2sgc2ltcGxvbi5jb183c2Mwc3AwNzN1M3N2dWtwb3BtaG9iOWZtZ0Bn",
+   "created": "2016-11-07T12:18:39.000Z",
+   "updated": "2016-11-07T15:36:42.854Z",
+   "summary": "présentations des projets perso à la promo",
+   "description": "concerne : toute la promo",
+   "creator": {
+    "email": "pycharpenet@simplon.co"
+   },
+   "organizer": {
+    "email": "simplon.co_7sc0sp073u3svukpopmhob9fmg@group.calendar.google.com",
+    "displayName": "Pédago Lyon",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2016-11-22T09:30:00+01:00"
+   },
+   "end": {
+    "dateTime": "2016-11-22T17:30:00+01:00"
+   },
+   "iCalUID": "me11d1d4s3psslqdli3kpuivgk@google.com",
+   "sequence": 1,
+   "hangoutLink": "https://plus.google.com/hangouts/_/simplon.co/simplon-co-7sc0?hceid=c2ltcGxvbi5jb183c2Mwc3AwNzN1M3N2dWtwb3BtaG9iOWZtZ0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t.me11d1d4s3psslqdli3kpuivgk"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"2957066477396000\"",
+   "id": "m4iirp6e65r096j7dqcbjvn7gg",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=bTRpaXJwNmU2NXIwOTZqN2RxY2Jqdm43Z2cgc2ltcGxvbi5jb183c2Mwc3AwNzN1M3N2dWtwb3BtaG9iOWZtZ0Bn",
+   "created": "2016-11-07T15:40:27.000Z",
+   "updated": "2016-11-07T15:40:38.698Z",
+   "summary": "suivi / soutien Amel",
+   "creator": {
+    "email": "pycharpenet@simplon.co"
+   },
+   "organizer": {
+    "email": "simplon.co_7sc0sp073u3svukpopmhob9fmg@group.calendar.google.com",
+    "displayName": "Pédago Lyon",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2016-11-25T09:00:00+01:00"
+   },
+   "end": {
+    "dateTime": "2016-11-25T16:30:00+01:00"
+   },
+   "iCalUID": "m4iirp6e65r096j7dqcbjvn7gg@google.com",
+   "sequence": 0,
+   "hangoutLink": "https://plus.google.com/hangouts/_/simplon.co/pycharpenet?hceid=cHljaGFycGVuZXRAc2ltcGxvbi5jbw.m4iirp6e65r096j7dqcbjvn7gg"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"2957066774906000\"",
+   "id": "qt4cjqm49pm3pgg9ppma5nq1ak",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=cXQ0Y2pxbTQ5cG0zcGdnOXBwbWE1bnExYWsgc2ltcGxvbi5jb183c2Mwc3AwNzN1M3N2dWtwb3BtaG9iOWZtZ0Bn",
+   "created": "2016-11-07T15:42:57.000Z",
+   "updated": "2016-11-07T15:43:07.453Z",
+   "summary": "cours CM2 / 6ème",
+   "description": "Idriss, Lisa, Anna-Angélique, David",
+   "location": "simplon / école / collège",
+   "creator": {
+    "email": "pycharpenet@simplon.co"
+   },
+   "organizer": {
+    "email": "simplon.co_7sc0sp073u3svukpopmhob9fmg@group.calendar.google.com",
+    "displayName": "Pédago Lyon",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2016-11-24T08:00:00+01:00"
+   },
+   "end": {
+    "dateTime": "2016-11-24T11:00:00+01:00"
+   },
+   "iCalUID": "qt4cjqm49pm3pgg9ppma5nq1ak@google.com",
+   "sequence": 0,
+   "hangoutLink": "https://plus.google.com/hangouts/_/simplon.co/cours-cm2-6-me?hceid=c2ltcGxvbi5jb183c2Mwc3AwNzN1M3N2dWtwb3BtaG9iOWZtZ0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t.qt4cjqm49pm3pgg9ppma5nq1ak"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"2957066857990000\"",
+   "id": "bj7q717np8iskcdfpqd6956l40",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=Ymo3cTcxN25wOGlza2NkZnBxZDY5NTZsNDAgc2ltcGxvbi5jb183c2Mwc3AwNzN1M3N2dWtwb3BtaG9iOWZtZ0Bn",
+   "created": "2016-11-07T15:41:43.000Z",
+   "updated": "2016-11-07T15:43:48.995Z",
+   "summary": "simulation d'entretien ",
+   "description": "3à minutes chacun\nIntervenant : Hervé Rampon",
+   "creator": {
+    "email": "pycharpenet@simplon.co"
+   },
+   "organizer": {
+    "email": "simplon.co_7sc0sp073u3svukpopmhob9fmg@group.calendar.google.com",
+    "displayName": "Pédago Lyon",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2016-11-25T09:00:00+01:00"
+   },
+   "end": {
+    "dateTime": "2016-11-25T12:30:00+01:00"
+   },
+   "iCalUID": "bj7q717np8iskcdfpqd6956l40@google.com",
+   "sequence": 0,
+   "hangoutLink": "https://plus.google.com/hangouts/_/simplon.co/pycharpenet?hceid=cHljaGFycGVuZXRAc2ltcGxvbi5jbw.bj7q717np8iskcdfpqd6956l40"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"2957066943104000\"",
+   "id": "bjfgin7ht8dm8guj3ci5g4gi5o",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=YmpmZ2luN2h0OGRtOGd1ajNjaTVnNGdpNW8gc2ltcGxvbi5jb183c2Mwc3AwNzN1M3N2dWtwb3BtaG9iOWZtZ0Bn",
+   "created": "2016-11-07T15:44:31.000Z",
+   "updated": "2016-11-07T15:44:31.552Z",
+   "summary": "simulation d'entretien",
+   "description": "30 minutes chacun\nIntervenants : divers pro",
+   "location": "simplon",
+   "creator": {
+    "email": "pycharpenet@simplon.co"
+   },
+   "organizer": {
+    "email": "simplon.co_7sc0sp073u3svukpopmhob9fmg@group.calendar.google.com",
+    "displayName": "Pédago Lyon",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2016-12-02T09:00:00+01:00"
+   },
+   "end": {
+    "dateTime": "2016-12-02T17:30:00+01:00"
+   },
+   "iCalUID": "bjfgin7ht8dm8guj3ci5g4gi5o@google.com",
+   "sequence": 0,
+   "hangoutLink": "https://plus.google.com/hangouts/_/simplon.co/simulation-d?hceid=c2ltcGxvbi5jb183c2Mwc3AwNzN1M3N2dWtwb3BtaG9iOWZtZ0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t.bjfgin7ht8dm8guj3ci5g4gi5o"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"2957067014188000\"",
+   "id": "05pat33v0q6774u9jkgiap20d4",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=MDVwYXQzM3YwcTY3NzR1OWprZ2lhcDIwZDQgc2ltcGxvbi5jb183c2Mwc3AwNzN1M3N2dWtwb3BtaG9iOWZtZ0Bn",
+   "created": "2016-11-07T10:07:20.000Z",
+   "updated": "2016-11-07T15:45:07.094Z",
+   "summary": "hackathlon EM Lyon",
+   "description": "15 élèves",
+   "creator": {
+    "email": "pycharpenet@simplon.co"
+   },
+   "organizer": {
+    "email": "simplon.co_7sc0sp073u3svukpopmhob9fmg@group.calendar.google.com",
+    "displayName": "Pédago Lyon",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2016-12-05T09:00:00+01:00"
+   },
+   "end": {
+    "dateTime": "2016-12-05T17:00:00+01:00"
+   },
+   "iCalUID": "05pat33v0q6774u9jkgiap20d4@google.com",
+   "sequence": 0,
+   "hangoutLink": "https://plus.google.com/hangouts/_/simplon.co/pycharpenet?hceid=cHljaGFycGVuZXRAc2ltcGxvbi5jbw.05pat33v0q6774u9jkgiap20d4"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"2957067155630000\"",
+   "id": "ulco5hqhkfhdiboefpoujd1c5g",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=dWxjbzVocWhrZmhkaWJvZWZwb3VqZDFjNWcgc2ltcGxvbi5jb183c2Mwc3AwNzN1M3N2dWtwb3BtaG9iOWZtZ0Bn",
+   "created": "2016-11-07T15:46:10.000Z",
+   "updated": "2016-11-07T15:46:17.815Z",
+   "summary": "cours CM2 6ème",
+   "description": "Idriss, Lisa, Anna Angélique, David",
+   "location": "simplon, école, collège",
+   "creator": {
+    "email": "pycharpenet@simplon.co"
+   },
+   "organizer": {
+    "email": "simplon.co_7sc0sp073u3svukpopmhob9fmg@group.calendar.google.com",
+    "displayName": "Pédago Lyon",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2016-12-08T08:00:00+01:00"
+   },
+   "end": {
+    "dateTime": "2016-12-08T11:00:00+01:00"
+   },
+   "iCalUID": "ulco5hqhkfhdiboefpoujd1c5g@google.com",
+   "sequence": 0,
+   "hangoutLink": "https://plus.google.com/hangouts/_/simplon.co/pycharpenet?hceid=cHljaGFycGVuZXRAc2ltcGxvbi5jbw.ulco5hqhkfhdiboefpoujd1c5g"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"2957067199888000\"",
+   "id": "fil6hdia7q1q5jauq2gg3nesjc",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=ZmlsNmhkaWE3cTFxNWphdXEyZ2czbmVzamMgc2ltcGxvbi5jb183c2Mwc3AwNzN1M3N2dWtwb3BtaG9iOWZtZ0Bn",
+   "created": "2016-11-03T13:48:57.000Z",
+   "updated": "2016-11-07T15:46:39.944Z",
+   "summary": "meet up initiation CSS HTML",
+   "description": "anna angelique, blandine, inna",
+   "location": "simplon",
+   "creator": {
+    "email": "pycharpenet@simplon.co"
+   },
+   "organizer": {
+    "email": "simplon.co_7sc0sp073u3svukpopmhob9fmg@group.calendar.google.com",
+    "displayName": "Pédago Lyon",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2016-12-10T14:00:00+01:00"
+   },
+   "end": {
+    "dateTime": "2016-12-10T17:00:00+01:00"
+   },
+   "iCalUID": "fil6hdia7q1q5jauq2gg3nesjc@google.com",
+   "sequence": 0,
+   "hangoutLink": "https://plus.google.com/hangouts/_/simplon.co/pycharpenet?hceid=cHljaGFycGVuZXRAc2ltcGxvbi5jbw.fil6hdia7q1q5jauq2gg3nesjc"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"2957071489920000\"",
+   "id": "dq4d72eg57b86ffolj5i4eg21g",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=ZHE0ZDcyZWc1N2I4NmZmb2xqNWk0ZWcyMWcgc2ltcGxvbi5jb183c2Mwc3AwNzN1M3N2dWtwb3BtaG9iOWZtZ0Bn",
+   "created": "2016-11-03T14:10:04.000Z",
+   "updated": "2016-11-07T16:22:24.960Z",
+   "summary": "pitch entretien pour la promo par digirocks",
+   "description": "toute la promo\nintervenant : Olivier Marx",
+   "location": "simplon",
+   "creator": {
+    "email": "pycharpenet@simplon.co"
+   },
+   "organizer": {
+    "email": "simplon.co_7sc0sp073u3svukpopmhob9fmg@group.calendar.google.com",
+    "displayName": "Pédago Lyon",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2016-11-16T10:30:00+01:00"
+   },
+   "end": {
+    "dateTime": "2016-11-16T12:00:00+01:00"
+   },
+   "iCalUID": "dq4d72eg57b86ffolj5i4eg21g@google.com",
+   "sequence": 0,
+   "hangoutLink": "https://plus.google.com/hangouts/_/simplon.co/pycharpenet?hceid=cHljaGFycGVuZXRAc2ltcGxvbi5jbw.dq4d72eg57b86ffolj5i4eg21g"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"2957203471706000\"",
+   "id": "n312qoaffl3gle15n3bki4bids",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=bjMxMnFvYWZmbDNnbGUxNW4zYmtpNGJpZHMgc2ltcGxvbi5jb183c2Mwc3AwNzN1M3N2dWtwb3BtaG9iOWZtZ0Bn",
+   "created": "2016-11-08T10:42:15.000Z",
+   "updated": "2016-11-08T10:42:15.853Z",
+   "summary": "hour of code",
+   "description": "opération internationale\ninitiation des élèves de 4ème du collège des Iris à la programmation\n15 élèves : 1/2 journée chacun",
+   "creator": {
+    "email": "pycharpenet@simplon.co"
+   },
+   "organizer": {
+    "email": "simplon.co_7sc0sp073u3svukpopmhob9fmg@group.calendar.google.com",
+    "displayName": "Pédago Lyon",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2016-12-05T09:00:00+01:00"
+   },
+   "end": {
+    "dateTime": "2016-12-05T17:00:00+01:00"
+   },
+   "iCalUID": "n312qoaffl3gle15n3bki4bids@google.com",
+   "sequence": 0,
+   "hangoutLink": "https://plus.google.com/hangouts/_/simplon.co/hour-of-code?hceid=c2ltcGxvbi5jb183c2Mwc3AwNzN1M3N2dWtwb3BtaG9iOWZtZ0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t.n312qoaffl3gle15n3bki4bids"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"2957221081486000\"",
+   "id": "9o7dd2gjaavt195a8tmpekb3lc",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=OW83ZGQyZ2phYXZ0MTk1YTh0bXBla2IzbGMgc2ltcGxvbi5jb183c2Mwc3AwNzN1M3N2dWtwb3BtaG9iOWZtZ0Bn",
+   "created": "2016-11-08T13:08:33.000Z",
+   "updated": "2016-11-08T13:09:00.743Z",
+   "summary": "journée avec Erick",
+   "description": "en remplacement du lundi 5",
+   "location": "simplon",
+   "creator": {
+    "email": "pycharpenet@simplon.co"
+   },
+   "organizer": {
+    "email": "simplon.co_7sc0sp073u3svukpopmhob9fmg@group.calendar.google.com",
+    "displayName": "Pédago Lyon",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2016-12-09T09:30:00+01:00"
+   },
+   "end": {
+    "dateTime": "2016-12-09T17:30:00+01:00"
+   },
+   "iCalUID": "9o7dd2gjaavt195a8tmpekb3lc@google.com",
+   "sequence": 0,
+   "hangoutLink": "https://plus.google.com/hangouts/_/simplon.co/pycharpenet?hceid=cHljaGFycGVuZXRAc2ltcGxvbi5jbw.9o7dd2gjaavt195a8tmpekb3lc"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"2958425527330000\"",
+   "id": "5tluqisdvg9nmjj0efvittpvb0",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=NXRsdXFpc2R2ZzlubWpqMGVmdml0dHB2YjAgc2ltcGxvbi5jb183c2Mwc3AwNzN1M3N2dWtwb3BtaG9iOWZtZ0Bn",
+   "created": "2016-11-15T12:25:42.000Z",
+   "updated": "2016-11-15T12:26:03.665Z",
+   "summary": "RJ DAY",
+   "description": "recrutement, networking et conférences tech\nconcerne tous les élèves motivés !",
+   "location": "Le Palais de la Bourse 3 Place de la Bourse Lyon",
+   "creator": {
+    "email": "pycharpenet@simplon.co"
+   },
+   "organizer": {
+    "email": "simplon.co_7sc0sp073u3svukpopmhob9fmg@group.calendar.google.com",
+    "displayName": "Pédago Lyon",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2016-11-18T16:00:00+01:00"
+   },
+   "end": {
+    "dateTime": "2016-11-18T20:00:00+01:00"
+   },
+   "iCalUID": "5tluqisdvg9nmjj0efvittpvb0@google.com",
+   "sequence": 0,
+   "hangoutLink": "https://plus.google.com/hangouts/_/simplon.co/rj-day?hceid=c2ltcGxvbi5jb183c2Mwc3AwNzN1M3N2dWtwb3BtaG9iOWZtZ0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t.5tluqisdvg9nmjj0efvittpvb0"
+  },
+  {
+   "kind": "calendar#event",
+   "etag": "\"2958460990480000\"",
+   "id": "0n3idarrculkvu3r5bbe2rh9g0",
+   "status": "confirmed",
+   "htmlLink": "https://www.google.com/calendar/event?eid=MG4zaWRhcnJjdWxrdnUzcjViYmUycmg5ZzAgc2ltcGxvbi5jb183c2Mwc3AwNzN1M3N2dWtwb3BtaG9iOWZtZ0Bn",
+   "created": "2016-11-15T17:21:35.000Z",
+   "updated": "2016-11-15T17:21:35.240Z",
+   "summary": "suivi / soutien Amel",
+   "description": "ouverts à tous, inscrivez vous sur le fichier joint",
+   "creator": {
+    "email": "pycharpenet@simplon.co"
+   },
+   "organizer": {
+    "email": "simplon.co_7sc0sp073u3svukpopmhob9fmg@group.calendar.google.com",
+    "displayName": "Pédago Lyon",
+    "self": true
+   },
+   "start": {
+    "dateTime": "2016-11-18T09:00:00+01:00"
+   },
+   "end": {
+    "dateTime": "2016-11-18T16:30:00+01:00"
+   },
+   "iCalUID": "0n3idarrculkvu3r5bbe2rh9g0@google.com",
+   "sequence": 0,
+   "hangoutLink": "https://plus.google.com/hangouts/_/simplon.co/suivi-soutien?hceid=c2ltcGxvbi5jb183c2Mwc3AwNzN1M3N2dWtwb3BtaG9iOWZtZ0Bncm91cC5jYWxlbmRhci5nb29nbGUuY29t.0n3idarrculkvu3r5bbe2rh9g0",
+   "attachments": [
+    {
+     "fileUrl": "https://docs.google.com/a/simplon.co/spreadsheets/d/1LkQFC6ir0fSahUhIsHfBt3iYZE0NZn_c3Xg2K-z-SD8/edit?usp=drive_web",
+     "title": "Planning promo#2 novembre décembre",
+     "mimeType": "application/vnd.google-apps.spreadsheet",
+     "iconLink": "https://ssl.gstatic.com/docs/doclist/images/icon_11_spreadsheet_list.png",
+     "fileId": "1LkQFC6ir0fSahUhIsHfBt3iYZE0NZn_c3Xg2K-z-SD8"
+    }
+   ]
+  }
+ ]
+}
