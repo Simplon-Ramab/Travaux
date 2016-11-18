@@ -18,21 +18,20 @@ requete.send();
 
 
 var index =0;
-
-
-
+var somme =0;
 function affichEvent(){
   var titre = document.getElementById('titre');
   var debut = document.getElementById('debut');
   var fin = document.getElementById('fin');
   var createur = document.getElementById('createur');
+
   var eventCours = listeEvents[index].summary;
   var eventsDebut=listeEvents[index].start.dateTime;
   var eventsFin=listeEvents[index].end.dateTime;
   var createurMail=listeEvents[index].creator.email;
+
   titre.innerText = eventCours;
   debut.innerText = eventsDebut;
   fin.innerText = eventsFin;
   createur.innerText = createurMail;
-
-// }
+}
