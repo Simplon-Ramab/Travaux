@@ -6,7 +6,8 @@ background-color: #286CA0;
 h2{
   color:white;
   vertical-align: baseline;
-  font-size: 40px;
+  font-size: 45px;
+  font-weight: bold;
 }
 h3{
   vertical-align: middle;
@@ -88,8 +89,13 @@ border-radius: 10px;
 #blocquizzf{
   width:193vh;
   height:75vh;
-background-color: #F8CD36;
-
+  background-color: #F8CD36;
+  display: none;
+}
+#blocquizzm{
+  width:193vh;
+  height:75vh;
+  background-color: #F8CD36;
   display: none;
 }
 #blocf{
@@ -102,18 +108,15 @@ background-color: #F8CD36;
 
   font-weight: bold;
   color:black;
-  font-size:40px;
+  font-size:35px;
 }
 #blocq{
   padding-top: 5vh;
   font-weight: bold;
   color:white;
-  font-size:50px;
+  font-size:40px;
 }
-input#blocr{
-    width:78vh;
-    height:8vh;
-}
+
 
 .anglais {
   margin-top:20px;
@@ -139,7 +142,7 @@ border-radius: 10px;
 input{
   width:60vh;
   height:8vh;
-  font-size: 45px;
+  font-size: 40px;
   font-weight:bold;
 }
 .ident{
@@ -148,7 +151,7 @@ input{
 input#blocr{
   width:60vh;
   height:8vh;
-  font-size: 50px;
+  font-size: 40px;
   font-weight:bold;
 }
 input:focus {
@@ -163,6 +166,13 @@ input:focus {
   text-align:
 }
 #clique{
+padding-bottom: 8vh;
+
+}
+
+#clique:hover{
+color:white;
+border-color: white;
 
 }
 #comment{
@@ -170,7 +180,7 @@ input:focus {
   margin-top:50px;
   font-weight: bold;
   color:#286CA0;
-  font-size:40px;
+  font-size:30px;
 }
 .btn-secondary{
 
@@ -186,4 +196,68 @@ input:focus {
   height: 8vh;
   width:30vh
 
+}
+/*partie maths*/
+#commentm{
+  padding-top: 1vh;
+  margin-top:50px;
+  font-weight: bold;
+  color:#286CA0;
+  font-size:30px;
+}
+#blocfm{
+  padding-top: 5vh;
+  font-weight: bold;
+  color:white;
+  font-size:40px;
+}
+#choixm{
+
+  font-weight: bold;
+  color:black;
+  font-size:35px;
+}
+#blocqm{
+  padding-top: 5vh;
+  font-weight: bold;
+  color:white;
+  font-size:40px;
+}
+
+#blocquizza{
+  width:193vh;
+  height:75vh;
+  background-color: #F8CD36;
+  display: none;
+}
+#commenta{
+  padding-top: 1vh;
+  margin-top:50px;
+  font-weight: bold;
+  color:#286CA0;
+  font-size:30px;
+}
+#blocfa{
+  padding-top: 5vh;
+  font-weight: bold;
+  color:white;
+  font-size:40px;
+}
+#choixa{
+
+  font-weight: bold;
+  color:black;
+  font-size:35px;
+}
+#blocqa{
+  padding-top: 5vh;
+  font-weight: bold;
+  color:white;
+  font-size:40px;
+}
+#blocqa{
+  padding-top: 5vh;
+  font-weight: bold;
+  color:white;
+  font-size:40px;
 }

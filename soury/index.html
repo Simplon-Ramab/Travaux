@@ -32,7 +32,7 @@
         <label id ="entre" for="">Entre ton mot de passe</label></br>
         <input type="text" id="mdp" name="name"></br></br>
     <input type="password" id="pword" name="name"></br></br>
-    <button type="button" class="btn btn-secondary btn-lg" id="clique" name="button" onclick="verif()"> Clique</button>
+    <button type="button" class="btn btn-secondary btn-lg" id="clique" name="button" onclick="verif()"> Ok</button>
       </form>
 
 <div id="matieres" >
@@ -59,18 +59,49 @@
     </center>
 </div>
 <center>
+  <!-- partie affichage francais ce2 -->
 <div id="blocquizzf">
   <div id=blocqr>
-<h2 id="blocf">Question</h2>
+<h2 id="blocf"></h2>
 <p id="blocq"></p>
 <p id="choix"></p>
 <input type="text" id="blocr" name="name" value=""></input></br></br>
-<button type="button" class="btn btn-primary btn-lg" name="button" onclick="verifieReponse()">Valider</button>
+<button type="button" class="btn btn-primary btn-lg" onclick="verifieReponse()" name="button" >Valider</button>
 </div>
 <p id="comment"></p>
 <p id="compteur"></p>
-
+<button type="button" id="retour" onclick="retourCe()" name="button">Retour</button>
 </div>
+<!-- partie affichage ce2  -->
+<div id="blocquizzm">
+  <div id=blocqrm>
+<h2 id="blocfm"></h2>
+<p id="blocqm"></p>
+<p id="choixm"></p>
+<input type="text" id="blocrm" name="name" value=""></input></br></br>
+<button type="button" class="btn btn-primary btn-lg" onclick="verifieReponseMaths()"name="button" >Valider</button>
+</div>
+<p id="commentm"></p>
+<p id="compteurm"></p>
+<button type="button" id="retourm"onclick="retourCem()" name="button">Retour</button>
+</div>
+
+<!-- partie affichage anglais -->
+<div id="blocquizza">
+  <div id=blocqra>
+<h2 id="blocfa"></h2>
+<p id="blocqa"></p>
+<p id="choixa"></p>
+<input type="text" id="blocra" name="name" value=""></input></br></br>
+<button type="button" class="btn btn-primary btn-lg" onclick="verifieReponseAnglais()"name="button" >Valider</button>
+</div>
+<p id="commenta"></p>
+<p id="compteura"></p>
+<button type="button" id="retoura"onclick="retourCea()" name="button">Retour</button>
+</div>
+
+
+<!-- DEBUT PROGRAMME AFFICHAGE 5EME  -->
 </center>
 
 

@@ -12,28 +12,28 @@
           "quizz":
           [
             {
-              "question":"Ecris la bonne réponse : papa est rentré ... la maison",
-              "choix":["et", " 12", " a", " à"],
-              "reponse":"à"
+              "question":"Combien de syllabe(s) y a-t-il dans le mot bille ?",
+              "choix":"1, 2, 3 ou 0",
+              "reponse":"2"
             },
             {
               "question":" Ecris la bonne réponse: papa... parti à la maison",
-              "choix":["et", " 12", " est", " à"],
+              "choix":"et,  es, est ou à",
               "reponse":"est"
             },
             {
               "question":"Ecris la forme verbale qui convient. Il ... un bonhomme. (dessiner)",
-              "choix":["dessinent", " dessine", " deçine", " dessines"],
+              "choix":"dessinent, dessine, deçine ou dessines",
               "reponse":"dessine"
             },
             {
               "question":"Quel est le synonyme de Colis?",
-              "choix":["livreur"," paquet", " lettre"," tiroir"],
+              "choix":"livreur, paquet, lettre ou tiroir",
               "reponse":"paquet"
             },
             {
               "question":"Lequel de ces mots est du genre féminin ?",
-              "choix":["pétale"," vison", " geole"," chenet"],
+              "choix":"pétale, vison, geole ou chenet",
               "reponse":"pétale"
             }
           ]
@@ -56,12 +56,12 @@
             {
               "question":" Combien font 100 - 72?",
               "choix":"",
-              "reponse":"18"
+              "reponse":"28"
             },
             {
               "question":"Combien font 97 + 15?",
               "choix":"",
-              "reponse":"102"
+              "reponse":"112"
             },
             {
               "question":"Combien font 16 / 4?",
@@ -76,29 +76,29 @@
           "quizz":
           [
             {
-              "question":"?",
-              "choix":"",
-              "reponse":""
+              "question":"Quel est l'intrus ?",
+              "choix":" Monday, Car, Tuesday, Sunday",
+              "reponse":"Car"
             },
             {
-              "question":"?",
-              "choix":"",
-              "reponse":""
+              "question":"Comment dit-on ' bonjour ' en anglais ?",
+              "choix":"Hello, My name is Habib, Kikou ou Fish",
+              "reponse":"Hello"
             },
             {
-              "question":"?",
-              "choix":"",
-              "reponse":""
+              "question":"' look ' veux dire:",
+              "choix":"Style, Regarde, Beau ou Ah bon",
+              "reponse":"Regarde"
             },
             {
-              "question":"?",
-              "choix":"",
-              "reponse":""
+              "question":"Comment dit-on ' pomme ' en anglais ?",
+              "choix":"Cheese, Apple, Door ou pen",
+              "reponse":"Apple"
             },
             {
-              "question":"?",
-              "choix":"",
-              "reponse":""
+              "question":"Comment dit-on 'main' en anglais?",
+              "choix":"Hand, Stomach, foot ou Toes",
+              "reponse":"Hand"
             }
           ]
         }
