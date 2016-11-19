@@ -18,7 +18,7 @@
             },
             {
               "question":" Ecris la bonne réponse: papa... parti à la maison",
-              "choix":"et,  es, est ou à",
+              "choix":"et, es, est ou à",
               "reponse":"est"
             },
             {
@@ -116,29 +116,29 @@
           "quizz":
           [
             {
-              "question":"?",
-              "choix":"",
-              "reponse":""
+              "question":"Conjugue le verbe pouvoir au subjonctif présent :",
+              "choix":"J'aimerais tant qu'elle ... y arriver toute seule !",
+              "reponse":"puisse"
             },
             {
-              "question":"?",
-              "choix":"",
-              "reponse":""
+              "question":"Accorde correctement l'adjectif médiéval dans la phrase.",
+              "choix":"Il existait déjà une forme de médecine dans les temps ... .",
+              "reponse":"médiévaux"
             },
             {
-              "question":"?",
-              "choix":"",
-              "reponse":""
+              "question":"Conjugue le verbe savoir au passé simple de l'indicatif :",
+              "choix":"Nous ... tout de suite quel personnage il était.",
+              "reponse":"sûmes"
             },
             {
-              "question":"?",
-              "choix":"",
-              "reponse":""
+              "question":"Accorde correctement dans la phrase suivante le(s) mot(s) - vert pâle-.",
+              "choix":"Les concombres sont ...",
+              "reponse":"vert pâle"
             },
             {
-              "question":"?",
-              "choix":"",
-              "reponse":""
+              "question":"Conjugue le verbe Envier au présent de l'indicatif :",
+              "choix":"...-tu les touristes ?",
+              "reponse":"Envies"
             }
           ]
         },
@@ -147,29 +147,29 @@
           "image":"",
           "quizz":[
             {
-              "question":"?",
-              "choix":"",
-              "reponse":""
+              "question":"Combien vaut A ?",
+              "choix":"A = 4 + 3 × 5 ",
+              "reponse":"19"
             },
             {
-              "question":"?",
-              "choix":"",
-              "reponse":""
+              "question":"Combien vaut B ?",
+              "choix":"B = 5 × (7 - 3)",
+              "reponse":"20"
             },
             {
-              "question":"?",
-              "choix":"",
-              "reponse":""
+              "question":" Dans cet immeuble, les ascenseurs fonctionnent à la vitesse de 8 m par seconde. ",
+              "choix":"Quel temps faut-il pour monter 224 metres ?",
+              "reponse":"28"
             },
             {
-              "question":"?",
-              "choix":"",
-              "reponse":""
+              "question":"Donne le resultat ",
+              "choix":"72 : 9 = ?",
+              "reponse":"8"
             },
             {
-              "question":"?",
-              "choix":"",
-              "reponse":""
+              "question":"un terrain a une longueur de 10m et une largeur de 5m ? ",
+              "choix":"Calcule son périmetre",
+              "reponse":"30"
             }
           ]
         },
@@ -179,8 +179,8 @@
           "quizz":
           [
             {
-              "question":"?",
-              "choix":"",
+              "question":"Choisis la bonne traduction : ",
+              "choix":"Depuis dix ans.",
               "reponse":""
             },
             {

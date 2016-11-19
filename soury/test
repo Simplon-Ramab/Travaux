@@ -1,0 +1,58 @@
+
+// var count5=0;
+// var numero5 = 1;
+// var index5= 0;
+// function verifieReponse5() {
+//   var blocf5=document.getElementById('blocf5');
+//   var reponseUtilisateur = document.getElementById('blocr5').value;
+//   var reponseJuste = listeQuestions5[ index5 ].reponse;
+//   var comment5=document.getElementById('comment5');
+//   if (reponseUtilisateur.toLowerCase() == reponseJuste.toLowerCase()) {
+//     comment5.innerText="Bravo Habib";
+//     blocf5.innerText="Question"+ numero5;
+//     index5s += 1;
+//     numero5++;
+//     count5++;
+//     comment5.innerText="Bravo Habib";
+//     comment5.style.color="green";
+//     comment5.style.backgroundColor="white";
+//     comment5.style.height="8vh";
+//     comment5.style.width="70vh";
+//     if( listeQuestions5.length > index5)
+//     {
+//       afficheQuestion5();
+//     } else{
+//       if(count5<=(numero5/2)){
+//         comment5.innerText="Terminé tu as "+ count5+ " points . Des petis efforts";
+//       }
+//       else if(count5==numero5){
+//         comment5.innerText="Terminé tu as "+ count5+ " points.  Bravo ça vas";
+//       }
+//       else{
+//         $("#blocqr5").hide();
+//         comment5.innerText="Terminé tu as "+ count5+ " Bravo t'es vraiment fort";
+//       }
+//     }
+//   }
+//   else {
+//     index5 += 1;
+//     numero5 += 1;
+//     comment5.innerText="Faux! la reponse est "+reponseJuste;
+//     comment5.style.color="red";
+//     comment5.style.backgroundColor="white";
+//     comment5.style.height="8vh";
+//     comment5.style.width="70vh";
+//     if( listeQuestions5.length > index5 )
+//     {
+//       afficheQuestion5();
+//     } else{
+//       if(count5>=(numero5/2)){
+//         comment5.innerText="Terminé tu as "+ count5+ " points . Encore des petits efforts";
+//       }
+//       else{
+//         $("#blocqr5").hide();
+//         comment5.innerText="Terminé tu as "+ count5+ " points. Revoies tes léçons";
+//       }
+//     }
+//   }
+// }

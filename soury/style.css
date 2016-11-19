@@ -82,9 +82,15 @@ border-radius: 10px;
 #quitter{
   margin-top:50px;
   margin-left: 260px;
-  vertical-align: baseline;
+  /*vertical-align: baseline;*/
+  text-align: center;
   font-size: 45px;
   color:white;
+  -webkit-box-shadow: 0 6px 10px 0 rgba(0,0,0,0.3);
+  box-shadow: 0 6px 10px 0 rgba(0,0,0,0.3);
+}
+a{
+  text-decoration: none;
 }
 #blocquizzf{
   width:193vh;
@@ -169,18 +175,33 @@ input:focus {
 padding-bottom: 8vh;
 
 }
-
-#clique:hover{
-color:white;
-border-color: white;
-
+#retour{
+  width:15%;
+  height: 40px;
+}
+#retour:hover{
+  color:#454545;
+  text-align: center;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.25);
+  background: #ecf0f1;
+  border: 0;
+  border-bottom: 2px solid #dadedf;
+  cursor: pointer;
+  -webkit-box-shadow: inset 0 -2px #dadedf;
+  box-shadow: inset 0 -2px #dadedf;
+}
+#retour:active {
+  top: 1px;
+  outline: none;
+  -webkit-box-shadow: none;
+  box-shadow: none;
 }
 #comment{
   padding-top: 1vh;
-  margin-top:50px;
+  margin-top:30px;
   font-weight: bold;
   color:#286CA0;
-  font-size:30px;
+  font-size:20px;
 }
 .btn-secondary{
 
@@ -200,10 +221,10 @@ border-color: white;
 /*partie maths*/
 #commentm{
   padding-top: 1vh;
-  margin-top:50px;
+  margin-top:30px;
   font-weight: bold;
   color:#286CA0;
-  font-size:30px;
+  font-size:20px;
 }
 #blocfm{
   padding-top: 5vh;
@@ -221,7 +242,7 @@ border-color: white;
   padding-top: 5vh;
   font-weight: bold;
   color:white;
-  font-size:40px;
+  font-size:30px;
 }
 
 #blocquizza{
@@ -232,10 +253,10 @@ border-color: white;
 }
 #commenta{
   padding-top: 1vh;
-  margin-top:50px;
+  margin-top:30px;
   font-weight: bold;
   color:#286CA0;
-  font-size:30px;
+  font-size:20px;
 }
 #blocfa{
   padding-top: 5vh;
@@ -249,15 +270,113 @@ border-color: white;
   color:black;
   font-size:35px;
 }
+
 #blocqa{
+  padding-top: 5vh;
+  font-weight: bold;
+  color:white;
+  font-size:30px;
+}
+/*PARTIE CSS 5EME*/
+
+#blocquizzf5{
+  width:193vh;
+  height:75vh;
+  background-color: #F8CD36;
+  display: none;
+}
+#comment5{
+  padding-top: 1vh;
+  margin-top:30px;
+  font-weight: bold;
+  color:#286CA0;
+  font-size:20px;
+}
+#blocf5{
   padding-top: 5vh;
   font-weight: bold;
   color:white;
   font-size:40px;
 }
-#blocqa{
+#choix5{
+
+  font-weight: bold;
+  color:black;
+  font-size:30px;
+}
+
+#blocq5{
   padding-top: 5vh;
   font-weight: bold;
   color:white;
-  font-size:40px;
+  font-size:30px;
+}
+/*partie maths adama*/
+#blocquizz5m{
+  width:193vh;
+  height:75vh;
+  background-color: #F8CD36;
+  display: none;
+}
+#comment5m{
+  padding-top: 1vh;
+  margin-top:30px;
+  font-weight: bold;
+  color:#286CA0;
+  font-size:20px;
+}
+#blocf5m{
+  padding-top: 5vh;
+  font-weight: bold;
+  color:white;
+  font-size:45px;
+}
+#choix5m{
+
+  font-weight: bold;
+  color:black;
+  font-size:35px;
+}
+#blocq5m{
+  padding-top: 5vh;
+  font-weight: bold;
+  color:white;
+  font-size:30px;
+}
+
+/*partie anglais adama*/
+#blocquizz5a{
+  width:193vh;
+  height:75vh;
+  background-color: #F8CD36;
+  display: none;
+}
+#comment5a{
+  padding-top: 1vh;
+  margin-top:30px;
+  font-weight: bold;
+  color:#286CA0;
+  font-size:20px;
+}
+#blocf5a{
+  padding-top: 5vh;
+  font-weight: bold;
+  color:white;
+  font-size:45px;
+}
+#choix5a{
+
+  font-weight: bold;
+  color:black;
+  font-size:35px;
+}
+
+#blocq5a{
+  padding-top: 5vh;
+  font-weight: bold;
+  color:white;
+  font-size:30px;
+}
+#blocf, #blocfa, #blocfm,#blocfa, #blocf5,#blocf5m, #blocf5a {
+  text-decoration : underline;
 }
